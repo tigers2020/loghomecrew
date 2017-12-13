@@ -1,0 +1,12 @@
+{% extends 'home/base.html' %}
+{% block title %}
+    Article Site
+{% endblock %}
+{% block body %}
+    <div class="jumbotron">
+    <h1>Article Index</h1>
+    </div>
+    <a href="{% url 'article_app:article_list' %}">Article List</a>
+    <a href="{% url 'article_app:article_index' %}">Article index</a>
+
+{% endblock %}

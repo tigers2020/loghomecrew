@@ -1,0 +1,33 @@
+{% extends 'home/base.html' %}
+{% block container %}
+    {% regroup images|dictsortreversed:'date_build' by date_build|date:'Y' as year_list %}
+
+    {% for image_list in year_list %}
+        <section class="featured_works row" data-steelar-background-ratio="0.3"
+                 style="background-position: 50% -150px;">
+            <div class="tittle wow fadeInUp"
+                 style="visibility: visible; -webkit-animation-name: fadeInUp;-moz-animation-name: fadeInUp;-o-animation-name: fadeInUp;animation-name: fadeInUp;">
+                <h2>{{ image_list.grouper }}</h2>
+            </div>
+            <div class="featured_gallery">
+                {% for image in image_list.list %}
+                    {% for location in locations %}
+                        {% if location == image.location %}
+                            <div class="col-md-3 col-sm-4 col-xl-6 gallery_iner p0">
+                                <img src="/media/{{ image.image }}" alt>
+                                <div class="gallery_hover">
+                                    <h4>{{ location }}</h4>
+                                    <a href="{% url 'galleries_app:galleries_detail' image.date_build.year image.location_id %}">View
+                                        More</a>
+                                </div>
+                            </div>
+                        {% endif %}
+
+                    {% endfor %}
+
+                {% endfor %}
+            </div>
+        </section>
+
+    {% endfor %}
+{% endblock %}

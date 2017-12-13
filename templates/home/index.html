@@ -1,0 +1,72 @@
+{% extends 'home/base.html' %}
+
+{% load staticfiles %}
+{% block custom_css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/home.css' %}"/>
+{% endblock %}
+
+{% block jumbotron %}
+    <section class="slider_area row m0">
+        <div class="slider_inner">
+            {% for buildImage in buildImages %}
+                <div data-thumb="{{ buildImage.image.url }}" data-src="{{ buildImage.image.url }}">
+                    <div class="camera_caption">
+                        <div class="container">
+                            <h5 class="wow fadeInUp animated">{{ buildImage.title }}</h5>
+                            <p class="wow fadeInUp animated" data-wow-delay="0.8s">{{ buildImage.description }}</p>
+                            <a class="wow fadeInUp animated" data-wow-delay="1s"
+                               href="{% url 'galleries_app:galleries_detail' buildImage.date_build.year buildImage.location_id %}">View
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+    </section>
+
+{% endblock %}
+{% block container %}
+    <section class="what_we_area row">
+        <div class="container">
+            <div class="tittle wow fadeInUp">
+                <h2>What We Are</h2>
+                <h4>we are family business company build log home over 10 years</h4>
+            </div>
+            <div class="row construction_iner">
+                {% for article in articletext %}
+                    <div class="col-md-4 col-sm-6 construction">
+                        <div class="cns-img">
+                            <img src="{{ article.image.url }}" alt="{{ article.title }}">
+                        </div>
+                        <div class="cns-content">
+                            <i class="fa" aria-hidden="true">{{ article.title|make_list|first }}</i>
+                            <a href="#">{{ article.title }}</a>
+                            <p>{{ article.article_text|safe|linebreaks }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <section class="about_us_area">
+    <div class="container">
+        <div class="tittle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp">
+            <h2>About us</h2>
+            <h4>Who We Are</h4>
+        </div>
+        <div class="about_row row">
+            <div class="who_we_area col-md-7 col-sm-6">
+                <div class="subtittle">
+                    <h2>{{ aboutus.title }}</h2>
+                </div>
+                {{ aboutus.article_text|safe }}
+                <a href="#" class="button_all">Contact Now</a>
+            </div>
+            <div class="col-md-5 col-sm-6 about_client">
+                <img src="{{ aboutus.image.url }}" alt>
+            </div>
+        </div>
+    </div>
+    </section>
+{% endblock %}

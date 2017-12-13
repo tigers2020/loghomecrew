@@ -1,0 +1,54 @@
+{% extends 'home/base.html' %}
+{% load staticfiles %}
+{% block custom_css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/cubeportfolio.css' %}"/>
+
+{% endblock %}
+{% block container %}
+    <section class="gallery">
+        <div id="js-grid-full-width" class="cbp cbp-caption-active cbp-caption-zoom cbp-ready">
+            <div class="cbp-wrapper-outer">
+                <div class="cbp-wrapper">
+                    {% for buildingimages in buildingimages_list %}
+                        <div class="cbp-item">
+                            <div class="cbp-item-wrapper">
+                                <a href="{{ buildingimages.image.url }}"
+                                   class="cbp-caption cbp-lightbox" data-title="{{ buildingimages.title }}">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <img src="{{ buildingimages.image.url }}"
+                                             alt="" class="img-thumbnail">
+                                    </div>
+                                    <div class="cbp-caption-activeWrap">
+                                        <div class="cbp-l-caption-alignLeft">
+                                            <div class="cbp-l-caption-body">
+                                                <div class="cbp-l-caption-title">{{ buildingimages.title }}</div>
+                                                <div class="cbp-l-caption-desc">{{ buildingimages.description }}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+{% block custom_js %}
+    <script type="text/javascript"
+            src="{% static 'main/vendors/cubeportfolio/js/jquery.cubeportfolio.min.js' %}"></script>
+
+    <script type="javascript">
+        jQuery(document).ready(function () {
+            jQuery('#grid-container').cubeportfolio({
+                layoutMode: 'grid',
+                // lightbox
+                lightboxDelegate: '.cbp-lightbox',
+                lightboxGallery: true,
+                lightboxTitleSrc: 'data-title',
+                lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
+            });
+        });
+    </script>
+{% endblock %}

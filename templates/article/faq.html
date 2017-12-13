@@ -1,0 +1,22 @@
+{% extends 'home/base.html' %}
+{% block title %}
+Q&A
+{% endblock %}
+{% block container %}
+<div class="panel-group" id="accordion">
+  {% for faq in faqs %}
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#{{ faq.slug }}">
+        {{ faq.title }}</a>
+      </h4>
+    </div>
+    <div id="{{ faq.slug }}" class="panel-collapse collapse">
+      <div class="panel-body">{{ faq.article_text|safe|linebreaks }}</div>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+{% endblock %}
