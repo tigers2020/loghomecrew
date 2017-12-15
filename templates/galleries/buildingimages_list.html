@@ -6,20 +6,19 @@
 {% endblock %}
 {% block container %}
     <section class="gallery">
-        <div id="js-grid-full-width" class="cbp">
+        <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat cbp-caption-active cbp-caption-fadeIn cbp-ready">
 
             {% for buildingimages in buildingimages_list %}
-                <div class="cbp-item">
+                <div class="cbp-item" style="width: 380px;">
                     <a href="{{ buildingimages.image.url }}" class="cbp-caption cbp-lightbox"
-                       data-title="{{ buildingimages.title }}">
+                       data-title="{{ buildingimages.title }}<br>{{ buildingimages.description }}">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="{{ buildingimages.image.url }}" alt="" class="img-thumbnail">
+                            <img src="{{ buildingimages.image.url }}" alt="" data-current="{{ forloop.counter }}">
                         </div>
                         <div class="cbp-caption-activeWrap">
-                            <div class="cbp-l-caption-alignLeft">
+                            <div class="cbp-l-caption-alignCenter">
                                 <div class="cbp-l-caption-body">
                                     <div class="cbp-l-caption-title">{{ buildingimages.title }}</div>
-                                    <div class="cbp-l-caption-desc">{{ buildingimages.description }}</div>
                                 </div>
                             </div>
                         </div>
@@ -33,16 +32,5 @@
     <script type="text/javascript"
             src="{% static 'main/vendors/cubeportfolio/js/jquery.cubeportfolio.min.js' %}"></script>
 
-    <script type="javascript">
-        jQuery(document).ready(function () {
-            jQuery('#js-grid-full-width').cubeportfolio({
-                layoutMode: 'grid',
-                // lightbox
-                lightboxDelegate: '.cbp-lightbox',
-                lightboxGallery: true,
-                lightboxTitleSrc: 'data-title',
-                lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
-            });
-        });
-    </script>
+    <script type="text/javascript" src="{% static 'main/js/gallery.js' %}"></script>
 {% endblock %}

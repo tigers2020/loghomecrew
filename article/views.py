@@ -23,14 +23,11 @@ class BlogView(generic.ListView):
 	model = models.ArticleText.objects.filter(category=5)
 
 
-class AboutUsView(generic.TemplateView):
-	model = models.ArticleText
+class AboutUsView(generic.ListView):
+	model = ArticleText
 	template_name = 'article/about_us.html'
-
-	def get_context_data(self, **kwargs):
-		context = super(AboutUsView, self).get_context_data(**kwargs)
-		context['about_us'] = ArticleText.objects.filter(category=2)
-		return context
+	queryset = ArticleText.objects.filter(category=2).order_by('pk')
+	context_object_name = 'about_us'
 
 
 class FaQView(generic.TemplateView):
@@ -42,12 +39,7 @@ class FaQView(generic.TemplateView):
 		context['faqs'] = ArticleText.objects.filter(category=4)
 		return context
 
+class ServiceView(generic.TemplateView):
+	models = models.ArticleText.objects.filter(category=5)
+	template_name = 'article/services.html'
 
-class BlogView(generic.TemplateView):
-	model = models.ArticleText
-	template_name = 'article/blog.html'
-
-	def get_context_data(self, **kwargs):
-		context = super(BlogView, self).get_context_data(**kwargs)
-		context['blogs'] = ArticleText.objects.filter(category=5)
-		return context

@@ -24,7 +24,8 @@ urlpatterns = [
 	url(r'^admin/', admin.site.urls),
 	url(r'^$', home_views.IndexView.as_view(), name='index_view'),
 	url(r'^galleries/', include('galleries.urls')),
-	url(r'^article/', include('article.urls'))
+	url(r'^article/', include('article.urls')),
+	url(r'^contact_us/', home_views.contact, name='contactus'),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -1,0 +1,44 @@
+{% extends 'home/base.html' %}
+{% block title %}
+    Contact Us -
+{% endblock %}
+{% block custom_css %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main/css/contact_us.css' %}"/>
+{% endblock %}
+{% block container %}
+    <section class="all_contact_info">
+        <div class="container">
+            <div class="row contact_row">
+                <div class="col-sm-6 contact_info">
+                    <h2>Contact Info</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                    <div class="location">
+                        <div class="location_laft">
+                            <a class="f_location" href="#">location</a>
+                            <a href="#">phone</a>
+                            <a href="#">email</a>
+                        </div>
+                        <div class="address">
+                            <a href="#">6639 pleasant valley Rd  <br> Friendship NY 14739 </a>
+                            <a href="#">+(585) 307 0444</a>
+                            <a href="#">callbobmack@live.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 contact_info send_message">
+                    <h2>Send Us a Message</h2>
+                    {% if sent_email %}
+                    <div class="text-success">{{ sent_email }}</div>
+                    {% endif %}
+                    <form class="form-inline contact_box AVAST_PAM_nonloginform">
+                       {{ form }}
+                        <button type="submit" class="btn btn-default">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
