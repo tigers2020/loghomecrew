@@ -18,7 +18,6 @@ import dj_database_url
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 
-MEDIA_ROOT = os.path.join(os.path.join(BASE_DIR, 'media_cdn'), )
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -61,9 +60,13 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'loghomecrew.urls'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
+
 STATICFILES_DIRS = [
 	os.path.join(BASE_DIR, 'static_cdn'),
 ]
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media_cdn')
+
 MEDIA_DIRS = [
 	os.path.join(BASE_DIR, 'media_cdn'),
 ]
