@@ -63,12 +63,12 @@ ROOT_URLCONF = 'loghomecrew.urls'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 
 STATICFILES_DIRS = [
-	os.path.join(BASE_DIR, 'static_cdn'),
+	os.path.join(BASE_DIR, 'static'),
 ]
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media_cdn')
 
 MEDIA_DIRS = [
-	os.path.join(BASE_DIR, 'media_cdn'),
+	os.path.join(BASE_DIR, 'media'),
 ]
 TEMPLATES = [
 	{
