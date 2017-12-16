@@ -28,17 +28,17 @@ class BuildingImages(models.Model):
 	front_view = models.BooleanField(default=False)
 	location = models.ForeignKey(Location, on_delete=models.CASCADE)
 	date_build = models.DateField(auto_created=False, auto_now=False, auto_now_add=False, blank=True)
-	image = ResizedImageField(null=True, blank=True, upload_to=image_folder, size=[1280, 720], keep_meta=True, quality=90)
+	image = ResizedImageField(null=True, blank=True, upload_to=image_folder, size=[1280, 720], keep_meta=True,
+							  quality=90)
 	description = models.TextField()
 
 	def __str__(self):
 		return self.title
 
-	def save(self, force_insert=False, force_update=False, using=None,
-             update_fields=None):
+	def save(self, *args, **kwargs):
+
 		Image.open(self.image)
 		info = Image.Image.info
-
 
 	class Meta:
 		ordering = ['-date_build']

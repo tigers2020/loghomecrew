@@ -2,6 +2,7 @@
 {% load staticfiles %}
 {% block custom_css %}
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/cubeportfolio.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/gallery.css' %}"/>
 
 {% endblock %}
 {% block container %}
@@ -11,7 +12,7 @@
             {% for buildingimages in buildingimages_list %}
                 <div class="cbp-item" style="width: 380px;">
                     <a href="{{ buildingimages.image.url }}" class="cbp-caption cbp-lightbox"
-                       data-title="{{ buildingimages.title }}<br>{{ buildingimages.description }}">
+                       data-title="<h4>{{ buildingimages.title }}</h4>{{ buildingimages.description }}">
                         <div class="cbp-caption-defaultWrap">
                             <img src="{{ buildingimages.image.url }}" alt="" data-current="{{ forloop.counter }}">
                         </div>
