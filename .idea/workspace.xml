@@ -2,328 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a24847f-fd05-42ee-b161-937bd12186e8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/gallery.css" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/galleries/models.py" afterPath="$PROJECT_DIR$/galleries/models.py" />
-      <change beforePath="$PROJECT_DIR$/loghomecrew/settings.py" afterPath="$PROJECT_DIR$/loghomecrew/settings.py" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/1381493325_media-play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/alert.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/arrow-next-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/arrow-next-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/arrow-next-vertical-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/arrow-prev-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/arrow-prev-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/arrow-prev-vertical-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/buttons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/caption-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/fullscreen-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/fullscreen-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/pause-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/pause-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/play-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/play-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/preloader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/skin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/thumb-overlay-play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/x-mark-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/dark-skin/x-mark-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/alert.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/back-vertical.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/back.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/caption-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/close-25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/close-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/close-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/forward-vertical.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/forward.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/pause-25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/pause-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/pause-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/play-25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/play-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/play-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/preloader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/resize-25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/resize-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/resize-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/skin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/flat-dark-skin/thumb-overlay-play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/alert.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/arrow-next-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/arrow-next-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/arrow-next-vertical-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/arrow-prev-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/arrow-prev-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/arrow-prev-vertical-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/buttons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/caption-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/fullscreen-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/fullscreen-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/pause-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/pause-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/play-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/play-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/preloader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/skin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/thumb-overlay-play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/x-mark-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/light-skin/x-mark-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/alert.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/back-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/back-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/back-vertical-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/caption-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/close-25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/close-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/close-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/forward-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/forward-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/forward-vertical-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/pause-25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/pause-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/pause-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/play-25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/play-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/play-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/preloader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/resize-25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/resize-50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/resize-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/skin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/mac-skin/thumb-overlay-play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/alert.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/arrow-next-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/arrow-next-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/arrow-prev-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/arrow-prev-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/arrows_horizontal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/arrows_vertical.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/buttons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/caption-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/fullscreen-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/fullscreen-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/pause-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/pause-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/play-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/play-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/preloader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/skin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/social-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/thumb-overlay-play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/x-mark-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-black-skin/x-mark-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/alert.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/arrow-next-hover-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/arrow-next-hover-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/arrow-next-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/arrow-next-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/arrow-prev-hover-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/arrow-prev-hover-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/arrow-prev-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/arrow-prev-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/arrows_horizontal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/arrows_vertical.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/buttons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/caption-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/fullscreen-hover-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/fullscreen-hover-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/fullscreen-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/fullscreen-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/pause-hover-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/pause-hover-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/pause-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/pause-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/play-hover-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/play-hover-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/play-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/play-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/preloader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/skin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/social-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/thumb-overlay-play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/x-mark-hover-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/x-mark-hover-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/x-mark-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/metro-white-skin/x-mark-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/parade-skin/alert.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/parade-skin/buttons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/parade-skin/caption-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/parade-skin/pattern.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/parade-skin/preloader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/parade-skin/skin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/parade-skin/thumb-overlay-play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/alert.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/arrow-next-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/arrow-next-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/arrow-prev-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/arrow-prev-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/arrows_horizontal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/arrows_vertical.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/buttons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/caption-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/fullscreen-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/fullscreen-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/pause-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/pause-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/play-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/play-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/preloader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/skin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/thumb-overlay-play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/x-mark-icon-64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/smooth-skin/x-mark-icon-ie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/aim_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/aim_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/apple_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/apple_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/bebo_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/bebo_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/blogger_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/blogger_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/brightkite_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/brightkite_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/cargo_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/cargo_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/delicious_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/delicious_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/designfloat_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/designfloat_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/designmoo_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/designmoo_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/deviantart_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/deviantart_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/digg_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/digg_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/digg_alt_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/dopplr_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/dopplr_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/dribbble_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/dribbble_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/email_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/email_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/ember_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/ember_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/evernote_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/evernote_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/facebook_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/facebook_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/flickr_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/flickr_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/forrst_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/forrst_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/friendfeed_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/friendfeed_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/gamespot_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/gamespot_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/google_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/google_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/google_plus_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/google_plus_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/google_voice_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/google_voice_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/google_wave_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/google_wave_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/googletalk_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/googletalk_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/gowalla_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/gowalla_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/grooveshark_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/grooveshark_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/ilike_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/ilike_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/komodomedia_azure_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/komodomedia_azure_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/komodomedia_wood_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/komodomedia_wood_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/lastfm_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/lastfm_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/license.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/linkedin_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/linkedin_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/mixx_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/mixx_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/mobileme_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/mobileme_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/mynameise_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/mynameise_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/myspace_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/myspace_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/netvibes_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/netvibes_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/newsvine_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/newsvine_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/openid_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/openid_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/orkut_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/orkut_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/pandora_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/pandora_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/paypal_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/paypal_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/picasa_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/picasa_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/pinboard_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/playstation_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/playstation_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/plurk_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/plurk_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/posterous_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/posterous_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/qik_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/qik_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/rdio_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/rdio_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/readernaut_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/readernaut_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/reddit_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/reddit_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/roboto_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/roboto_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/rss_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/rss_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/sharethis_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/sharethis_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/skype_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/skype_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/slashdot_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/slashdot_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/steam_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/steam_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/stumbleupon_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/stumbleupon_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/technorati_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/technorati_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/tumblr_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/tumblr_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/twitter_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/twitter_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/viddler_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/viddler_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/vimeo_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/vimeo_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/virb_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/virb_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/windows_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/windows_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/wordpress_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/wordpress_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/xanga_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/xanga_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/xanga_alt_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/xing_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/xing_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/yahoo_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/yahoo_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/yahoobuzz_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/yahoobuzz_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/yelp_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/yelp_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/youtube_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/youtube_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/zootool_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/main/skins/ilightbox/social_icons/zootool_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/galleries/buildingimages_list.html" afterPath="$PROJECT_DIR$/templates/galleries/buildingimages_list.html" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -410,36 +89,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2850">
-              <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+            <state relative-caret-position="2451">
+              <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
               <folding>
                 <element signature="e#315#324#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -524,8 +201,8 @@
         <option value="$PROJECT_DIR$/galleries/models.py" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/loghomecrew/settings.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -537,7 +214,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1294" />
+    <option name="width" value="1609" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -759,7 +436,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1609" height="1047" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32119915" sideWeight="0.5031299" order="0" side_tool="true" content_ui="tabs" />
@@ -767,7 +444,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2923077" sideWeight="0.543036" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26580226" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21174951" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875773" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1061,14 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1082,7 +751,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1165,21 +834,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="2451">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding>
+            <element signature="e#315#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2850">
-          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="e#315#324#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
