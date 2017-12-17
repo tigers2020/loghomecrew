@@ -1,1 +1,1 @@
-web: gunicorn loghomecrew.wsgi
+web: gunicorn loghomecrew.wsgi --log-file-
