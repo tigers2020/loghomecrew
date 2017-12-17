@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a24847f-fd05-42ee-b161-937bd12186e8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/2017/09/13/DSC03058.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/AL/2017/9/20160616-IMG_0079.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/Blevins_MD_001.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/Blevins_MD_002.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/Blevins_MD_024.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/CA/2016-03-09/DSC03056.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/DSC03054.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/IA/2014/7/DSC03056.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/IA/2017/9/logpass.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/IL/2003/5/DSC03060.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/IN/2013/5/2013/DSC03056.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/about us/2017925/about-us/phine_008.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/about us/2017928/what-we-are-doing/1-6-14_003.jpe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/about us/2017928/what-we-do/1-6-14_003.jpe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/about us/2017928/what-we-do/1-6-14_003_FAFpyrm.jpe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/galleries.BuildingImages.date_build/DSC03055.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/main page/2017914/learn-about-us/14714836_10210419618347624_3816904676504678476_o.jpe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/main page/2017914/our-services/_MG_3232.jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/main page/2017914/what-we-do/Bogdon_NY_001_3.jpe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/main page/2040/our-services/Screenshot_16.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/main/images/favicon.png" afterPath="$PROJECT_DIR$/staticfiles/main/images/favicon.png" />
+      <change beforePath="$PROJECT_DIR$/templates/home/base.html" afterPath="$PROJECT_DIR$/templates/home/base.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -119,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="70" column="37" lean-forward="false" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+            <state relative-caret-position="399">
+              <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
               <folding>
                 <element signature="e#315#324#0" expanded="true" />
               </folding>
@@ -141,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/home/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="304">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -168,6 +150,7 @@
       <find>text-shadow</find>
       <find>article_detail</find>
       <find>static_root</find>
+      <find>static_ro</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,7 +189,6 @@
         <option value="$PROJECT_DIR$/static_cdn/main/css/home.css" />
         <option value="$PROJECT_DIR$/article/models.py" />
         <option value="$PROJECT_DIR$/templates/galleries/index.html" />
-        <option value="$PROJECT_DIR$/templates/home/base.html" />
         <option value="$PROJECT_DIR$/templates/home/index.html" />
         <option value="$PROJECT_DIR$/templates/article/about_us.html" />
         <option value="$PROJECT_DIR$/article/views.py" />
@@ -223,6 +205,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/loghomecrew/settings.py" />
+        <option value="$PROJECT_DIR$/templates/home/base.html" />
       </list>
     </option>
   </component>
@@ -290,21 +273,11 @@
             <path>
               <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
               <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
-              <item name="media_cdn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
               <item name="mediafiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
               <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
-              <item name="static_cdn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
               <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,7 +291,18 @@
               <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
               <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -491,6 +475,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1609" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32119915" sideWeight="0.5031299" order="0" side_tool="true" content_ui="tabs" />
@@ -498,7 +483,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2923077" sideWeight="0.543036" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21174951" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21174951" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875773" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -828,14 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/navigator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1007">
@@ -906,11 +883,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="70" column="37" lean-forward="false" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+        <state relative-caret-position="399">
+          <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
           <folding>
             <element signature="e#315#324#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
