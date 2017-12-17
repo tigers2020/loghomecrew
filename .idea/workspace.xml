@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a24847f-fd05-42ee-b161-937bd12186e8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/2017/09/13/DSC03058.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/AL/2017/9/20160616-IMG_0079.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/Blevins_MD_001.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/Blevins_MD_002.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/Blevins_MD_024.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/CA/2016-03-09/DSC03056.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/DSC03054.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/IA/2014/7/DSC03056.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/IA/2017/9/logpass.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/IL/2003/5/DSC03060.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/IN/2013/5/2013/DSC03056.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/about us/2017925/about-us/phine_008.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/about us/2017928/what-we-are-doing/1-6-14_003.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/about us/2017928/what-we-do/1-6-14_003.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/about us/2017928/what-we-do/1-6-14_003_FAFpyrm.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/galleries.BuildingImages.date_build/DSC03055.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/main page/2017914/learn-about-us/14714836_10210419618347624_3816904676504678476_o.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/main page/2017914/our-services/_MG_3232.jfif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/main page/2017914/what-we-do/Bogdon_NY_001_3.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/main page/2040/our-services/Screenshot_16.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/loghomecrew/settings.py" afterPath="$PROJECT_DIR$/loghomecrew/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,8 +122,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="69" column="14" lean-forward="true" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+            <state relative-caret-position="285">
+              <caret line="70" column="37" lean-forward="false" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
               <folding>
                 <element signature="e#315#324#0" expanded="true" />
               </folding>
@@ -268,6 +287,39 @@
               <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
               <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="media_cdn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="mediafiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="static_cdn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -292,14 +344,15 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\static_cdn\main\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\static_cdn\main" />
       <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\static_cdn\css" />
       <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\static_cdn" />
       <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\mediafiles" />
+      <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\static_cdn\main\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -444,8 +497,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2923077" sideWeight="0.543036" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21174951" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2923077" sideWeight="0.543036" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21174951" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875773" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -770,7 +823,7 @@
         <state relative-caret-position="285">
           <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -853,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="69" column="14" lean-forward="true" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="70" column="37" lean-forward="false" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
           <folding>
             <element signature="e#315#324#0" expanded="true" />
           </folding>
