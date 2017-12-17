@@ -60,15 +60,15 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'loghomecrew.urls'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
-	os.path.join(BASE_DIR, 'static'),
+	os.path.join(BASE_DIR, 'static_cdn'),
 ]
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media_cdn')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 
 MEDIA_DIRS = [
-	os.path.join(BASE_DIR, 'media'),
+	os.path.join(BASE_DIR, 'media_cdn'),
 ]
 TEMPLATES = [
 	{
