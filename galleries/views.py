@@ -28,24 +28,22 @@ class GalleriesIndexView(generic.TemplateView):
 		print(year_set)
 		for year in year_set:
 			for location in context['locations']:
-				galleries_image.append(models.BuildingImages.objects.get(location=location, date_build__year=year))
+				if galleries.get(location=location, date_build__year=year):
+					galleries_image += galleries.get(location=location, date_build__year=year)
 
 		context['images'] = galleries_image
 		return context
-
-	def get_image_by_year(self):
-		pass
 
 
 class GalleriesDetailView(SelectRelatedMixin, generic.ListView):
 	model = models.BuildingImages
 	select_related = ('location',)
 
-	def get_queryset(self):
-		print(self.kwargs)
+	def get_queryset(self, **kwargs):
+		print(kwargs)
 		try:
-			images = models.BuildingImages.objects.filter(date_build__year=self.kwargs['year']).order_by('date_build')
-			images = images.filter(location=self.kwargs['pk'])
+			images = models.BuildingImages.objects.filter(date_build__year=kwargs['year']).order_by('date_build')
+			images = images.filter(location=kwargs['pk'])
 
 		except models.BuildingImages.DoesNotExist:
 			raise Http404

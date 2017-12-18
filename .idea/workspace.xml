@@ -2,346 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a24847f-fd05-42ee-b161-937bd12186e8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/404.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/closedhand.cur" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/cubeportfolio.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/cubeportfolio.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/gallery.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/home.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/ilightbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/style.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/about_client.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/achievments.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/achievments_bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/banner-bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/blog_hed-1.3247b8d15aef.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/blog_hed-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/lb-1.8478fa559f1d.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/lb-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/lb-2.08b0fa66d1e2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/lb-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/lb-3.29641d238268.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/lb-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-1.2b3b90300bbc.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-2.db548c14ceac.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-3.16fd3c79b816.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-4.440349fc5888.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-5.f7d499dbf26b.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-6.dc11c19b064f.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-7.d446090876ee.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-8.57a341c826d2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-9.a6c27f760e87.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/renovation/r-9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/rs-1.96ceda622e4b.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/rs-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/rs-2.81917ecc0064.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/rs-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/rs-3.25dce1fdc5b8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/blog/rs-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/client_logo/client_logo-1.5d27eb64e126.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/client_logo/client_logo-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/client_logo/client_logo-2.ab93b3b2072e.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/client_logo/client_logo-2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/client_logo/client_logo-3.e1d297139d06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/client_logo/client_logo-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/client_logo/client_logo-4.7861db8a0047.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/client_logo/client_logo-4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/client_logo/client_logo-5.af0262d80859.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/client_logo/client_logo-5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/cns-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/cns-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/cns-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/construction-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/construction.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/favicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/feature-man-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/feature-man-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/feature-man-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/feature-man.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/footer-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/footer.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-1.51c8253784a5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-2.2f1cebac3b89.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-3.59041aafff27.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-4.1768b6ed11d3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-5.e98fdbe0a4f7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-6.b11a7e147edf.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-7.f4e61ac7cc66.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-8.c201d735cd93.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/gl-8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-1.3a17ba2ed525.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-2.f0f59f864387.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-3.bb73fffaa32f.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-4.9341f3414f93.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-5.649c6b44abbb.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-6.0010ba5687b7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/gallery/sv-6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/preloader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/preloader2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/protfolio_bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/slider-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/slider-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-1.bb257333a0c9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-2.58ac415406c1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-3.dbcf5e628612.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-4.f6592162ccb8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-5.54cf9b905197.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-6.98c988002cf0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-7.f49682cb3453.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-8.41bcc0105a6d.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/team/tm-8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/testimonial-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/testimonial-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/testimonial-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/images/testimonial-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/gallery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/google_map.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/html5shiv.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/jquery-1.12.0.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/jquery-migrate-3.0.0.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/min/theme.min.e00923d4a82a.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/min/theme.min.e00923d4a82a.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/min/theme.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/min/theme.min.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/respond.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/theme.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_404.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_about.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_achievments.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_blog.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_builder.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_call.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_construction.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_contact.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_feature.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_footer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_gallery.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_header.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_min-blog.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_offer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_prefix.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_responsive.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_services.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_slider.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_team.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_testimonial.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/scss/style.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/Counter-Up/jquery.counterup.min.ef36cca760bf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/Counter-Up/jquery.counterup.min.ef36cca760bf.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/Counter-Up/jquery.counterup.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/Counter-Up/jquery.counterup.min.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/Counter-Up/waypoints.min.dfe0eedf8da5.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/Counter-Up/waypoints.min.dfe0eedf8da5.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/Counter-Up/waypoints.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/Counter-Up/waypoints.min.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/animate/animate.cb6737141471.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/animate/animate.cb6737141471.css.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/animate/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/animate/animate.css.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/animate/wow.min.161ba788d7ca.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/animate/wow.min.161ba788d7ca.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/animate/wow.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/animate/wow.min.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/camera.0fdff5389735.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/camera.7ee1cedf75ac.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/camera.7ee1cedf75ac.css.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/camera.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/camera.css.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/camera.min.3e58514040bf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/camera.min.3e58514040bf.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/camera.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/camera.min.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/blank.85fc87e214b7.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/camera-loader.cd2e13291ecd.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/camera-loader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/camera_skins.44234b21bebe.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/camera_skins.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/next.a1a4bf7e9e1f.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/next.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay1.1f146c3ca45b.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay10.e1eb49ee07e7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay2.ddcf42fed3bf.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay3.d3deed31d1ee.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay4.8df992721519.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay5.a839858206fe.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay6.de8c31ab33ca.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay7.8475f8c4b675.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay8.a13c787a719e.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay9.06b734ded54b.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/patterns/overlay9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/prev.84dd08c0aaa2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/images/prev.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/jquery.easing.1.3.6516449ed508.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/jquery.easing.1.3.6516449ed508.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/jquery.easing.1.3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/camera-slider/jquery.easing.1.3.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/img/cbp-sprite.c3d14571f3f9.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/img/cbp-sprite.c3d14571f3f9.psd.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/img/cbp-sprite.d487134fb11f.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/img/cbp-sprite.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/img/cbp-sprite.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/img/cbp-sprite.psd.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/js/jquery.cubeportfolio.21ed41e4357f.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/js/jquery.cubeportfolio.21ed41e4357f.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/js/jquery.cubeportfolio.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/js/jquery.cubeportfolio.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/js/jquery.cubeportfolio.min.294d9fde3a91.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/js/jquery.cubeportfolio.min.294d9fde3a91.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/js/jquery.cubeportfolio.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/cubeportfolio/js/jquery.cubeportfolio.min.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/css/font-awesome.min.269550530cc1.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/css/font-awesome.min.bf0c425cdb73.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/css/font-awesome.min.bf0c425cdb73.css.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/css/font-awesome.min.css.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/FontAwesome.0d2717cd5d85.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/FontAwesome.0d2717cd5d85.otf.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/FontAwesome.otf.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.674f50d287a8.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.674f50d287a8.eot.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.912ec66d7572.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.912ec66d7572.svg.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.af7ae505a9ee.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.b06871f281fe.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.b06871f281fe.ttf.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.eot.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.fee66e712a8a.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.svg.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.ttf.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/isotope/imagesloaded.pkgd.min.1a4b132632e8.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/isotope/imagesloaded.pkgd.min.1a4b132632e8.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/isotope/imagesloaded.pkgd.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/isotope/imagesloaded.pkgd.min.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/isotope/isotope.pkgd.min.c09fe8844fcb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/isotope/isotope.pkgd.min.c09fe8844fcb.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/isotope/isotope.pkgd.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/isotope/isotope.pkgd.min.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/Linearicons.13501bd32a6a.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/Linearicons.13501bd32a6a.css.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/Linearicons.aa4cd95fc370.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/Linearicons.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/Linearicons.css.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.03e91f122aa5.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.2781bf543c08.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.2781bf543c08.svg.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.2f3e9f80fff7.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.2f3e9f80fff7.ttf.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.65060723fe96.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.b9b7f23cb61b.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.b9b7f23cb61b.eot.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.eot.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.svg.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.ttf.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/linearicons/fonts/Linearicons-Free.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/map/topbuilder_map.min.d64854861264.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/map/topbuilder_map.min.d64854861264.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/map/topbuilder_map.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/map/topbuilder_map.min.js.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/owl_carousel/owl.carousel.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/owl_carousel/owl.carousel.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/popup/lightbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/popup/lightbox.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/vendors/stellar/jquery.stellar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/images/cbp-sprite.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/account/models.py" afterPath="$PROJECT_DIR$/account/models.py" />
-      <change beforePath="$PROJECT_DIR$/article/models.py" afterPath="$PROJECT_DIR$/article/models.py" />
-      <change beforePath="$PROJECT_DIR$/blog/__init__.py" afterPath="$PROJECT_DIR$/static_cdn/main/css/contact_us.css" />
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blog/apps.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blog/form.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" afterPath="$PROJECT_DIR$/Procfile.windows" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blog/tests.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change beforePath="$PROJECT_DIR$/galleries/admin.py" afterPath="$PROJECT_DIR$/galleries/admin.py" />
-      <change beforePath="$PROJECT_DIR$/galleries/models.py" afterPath="$PROJECT_DIR$/galleries/models.py" />
       <change beforePath="$PROJECT_DIR$/galleries/views.py" afterPath="$PROJECT_DIR$/galleries/views.py" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" afterPath="$PROJECT_DIR$/home/views.py" />
-      <change beforePath="$PROJECT_DIR$/loghomecrew/settings.py" afterPath="$PROJECT_DIR$/loghomecrew/settings.py" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/2017/09/13/DSC03058.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/AL/2017/9/20160616-IMG_0079.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/CA/2016-03-09/DSC03056.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/IA/2014/7/DSC03056.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/IA/2017/9/logpass.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/IL/2003/5/DSC03060.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/IN/2013/5/2013/DSC03056.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/galleries.BuildingImages.date_build/DSC03055.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/base.css" afterPath="$PROJECT_DIR$/staticfiles/admin/css/base.css" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectFilter2.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/SelectFilter2.js" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/actions.js" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.min.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/actions.min.js" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/admin/RelatedObjectLookups.js" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.min.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/collapse.min.js" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/core.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/core.js" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/inlines.js" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.min.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/inlines.min.js" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/urlify.js" afterPath="$PROJECT_DIR$/staticfiles/admin/js/urlify.js" />
-      <change beforePath="$PROJECT_DIR$/templates/galleries/buildingimages_list.html" afterPath="$PROJECT_DIR$/templates/galleries/buildingimages_list.html" />
-      <change beforePath="$PROJECT_DIR$/templates/home/navigator.html" afterPath="$PROJECT_DIR$/templates/home/navigator.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -395,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/galleries/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="494">
+              <caret line="31" column="94" lean-forward="true" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -418,11 +84,21 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/galleries/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="104" column="26" lean-forward="false" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
+            <state relative-caret-position="-745">
+              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="48" column="15" lean-forward="false" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -437,31 +113,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/galleries/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile.windows" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Procfile.windows" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile.windows">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -470,8 +136,8 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/galleries/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="456">
+              <caret line="24" column="94" lean-forward="false" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -538,12 +204,14 @@
         <option value="$PROJECT_DIR$/templates/galleries/buildingimages_list.html" />
         <option value="$PROJECT_DIR$/loghomecrew/settings.py" />
         <option value="$PROJECT_DIR$/account/models.py" />
-        <option value="$PROJECT_DIR$/galleries/admin.py" />
         <option value="$PROJECT_DIR$/templates/home/navigator.html" />
         <option value="$PROJECT_DIR$/home/views.py" />
-        <option value="$PROJECT_DIR$/galleries/views.py" />
         <option value="$PROJECT_DIR$/galleries/models.py" />
         <option value="$PROJECT_DIR$/procfile" />
+        <option value="$PROJECT_DIR$/Procfile.windows" />
+        <option value="$PROJECT_DIR$/galleries/admin.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/galleries/views.py" />
       </list>
     </option>
   </component>
@@ -604,6 +272,34 @@
               <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
               <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="galleries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -628,6 +324,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\staticfiles\main\images" />
       <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\static_cdn" />
       <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\mediafiles" />
       <recent name="C:\Users\tiger\PycharmProjects\loghomecrew\static_cdn\main\js" />
@@ -1066,14 +763,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="48" column="15" lean-forward="false" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1110,16 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/galleries/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/navigator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1152,18 +831,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/galleries/views.py">
+    <entry file="file://$PROJECT_DIR$/Procfile.windows">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="48" column="15" lean-forward="false" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galleries/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="94" lean-forward="false" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/galleries/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="104" column="26" lean-forward="false" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
+        <state relative-caret-position="-745">
+          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -1173,15 +870,15 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile.windows">
+    <entry file="file://$PROJECT_DIR$/galleries/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="31" column="94" lean-forward="true" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
           <folding />
         </state>
       </provider>
