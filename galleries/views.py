@@ -28,7 +28,7 @@ class GalleriesIndexView(generic.TemplateView):
 		print(year_set)
 		for year in year_set:
 			for location in context['locations']:
-				galleries_image += (models.BuildingImages.objects.filter(location=location, date_build__year=year)[:1])
+				galleries_image.append(models.BuildingImages.objects.get(location=location, date_build__year=year))
 
 		context['images'] = galleries_image
 		return context

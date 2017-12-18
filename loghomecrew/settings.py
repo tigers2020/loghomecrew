@@ -16,8 +16,8 @@ import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 
+TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -140,17 +140,24 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Local Language Setting
+
+LANGUAGES = (
+	('en', 'English'),
+	('ko-kr', "Korean"),
+	('es', 'Spanish'),
+)
+LOCALE_PATH = (os.path.join(BASE_DIR, "locale"),)
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 MEDIA_URL = '/media/'
 STATIC_URL = '/static/'
 
-
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
 
 # Django Resize settings
 DJANGORESIZED_DEFAULT_SIZE = [1920, 1080]

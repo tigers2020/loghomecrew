@@ -7,20 +7,25 @@ from . import models
 # Register your models here.
 
 
-def apply_to_front(modeladmin, request, queryset):
-	for front_check in queryset:
-		if front_check.front_view:
-			front_check.front_view  = False
+def apply_to_publish(queryset):
+	for published in queryset:
+		if published.published:
+			published.published = False
 		else:
-			front_check.front_view = True
+			published.published = True
 
-		front_check.save()
-	apply_to_front.short_description="enable to front view"
+		published.save()
+
+	apply_to_publish.short_description = "publish image"
+
+class CategoryAdmin(admin.ModelAdmin):
+	list_display = ('title', 'image', 'description', 'date', 'published', )
 
 class GalleriesAdmin(admin.ModelAdmin):
-	list_display = ("title", "front_view", "location", "date_build",)
+	list_display = ("title", "image_tag", "location", "published", "imgorigsize", "date_build", "metadata",)
 	ordering = ('date_build',)
-	actions = [apply_to_front,]
+	readonly_fields = ('image_tag',)
+	actions = [apply_to_publish]
 
 
 class LocationAdmin(admin.ModelAdmin):
@@ -28,5 +33,6 @@ class LocationAdmin(admin.ModelAdmin):
 	ordering = ('state',)
 
 
+admin.site.register(models.Category, CategoryAdmin)
 admin.site.register(models.BuildingImages, GalleriesAdmin)
 admin.site.register(models.Location, LocationAdmin)

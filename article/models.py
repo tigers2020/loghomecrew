@@ -1,6 +1,4 @@
 from django.db import models
-from django.core.urlresolvers import reverse
-from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth import get_user_model
 from django.utils.text import slugify
 import misaka
@@ -28,7 +26,7 @@ def static_folder(instance, filename):
 # return '/'.join([instance.date_build., str(instance.date_build.year), str(instance.date_build.month), filename])
 
 class ArticleText(models.Model):
-	user = models.ForeignKey(User, related_name="articles")
+	user = models.ForeignKey(User, related_name="articles", on_delete=models.CASCADE)
 	title = models.CharField(max_length=255)
 	category = models.ForeignKey(Category, on_delete=models.CASCADE, blank=True, null=True)
 	slug = models.SlugField(unique=True, allow_unicode=True)
