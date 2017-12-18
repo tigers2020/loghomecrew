@@ -3,56 +3,57 @@ from django.db.models import Count, Max
 from django.http import Http404
 from django.shortcuts import render
 from django.views import generic
-from . import models
+from .models import BuildingImages, Location
 
 
-# Create your views here.
-def get_image_count_from_location(request):
-	images = models.BuildingImages.objects.filter(request.state).count()
-	return images
+class GalleriesIndexView(generic.ListView):
+	model = BuildingImages
 
-
-class GalleriesIndexView(generic.TemplateView):
-	template_name = 'galleries/index.html'
-
-	def get_context_data(self, **kwargs):
+	def get_context_data(self,**kwargs):
 		context = super(GalleriesIndexView, self).get_context_data(**kwargs)
-		context['locations'] = models.Location.objects.all().order_by('state')
-		galleries_image = []
-		galleries = models.BuildingImages.objects.all()
-		year_ids = galleries.values_list('date_build', flat=True).distinct()
-		year_set = set()
-		for y in year_ids:
-			year_set.add(y.year)
+		context['locations'] = Location.objects.all()
 
-		print(year_set)
-		for year in year_set:
-			for location in context['locations']:
-				if galleries.get(location=location, date_build__year=year):
-					galleries_image += galleries.get(location=location, date_build__year=year)
-
-		context['images'] = galleries_image
+		print(context)
 		return context
+# def get_context_data(self, **kwargs):
+# 	context = super(GalleriesIndexView, self).get_context_data(**kwargs)
+#
+#
+# 	galleries_image = []
+# 	galleries = models.BuildingImages.objects.all()
+# 	context['locations'] = models.Location.objects.all().order_by('state')
+#
+# 	year_ids = galleries.values_list('date_build', flat=True).distinct()
+# 	year_set = set()
+# 	for y in year_ids:
+# 		year_set.add(y.year)
+# 	print(year_set)
+# 	for year in year_set:
+# 		for location in context['locations']:
+# 			if galleries.get(location=location, date_build__year=year):
+# 				galleries_image += galleries.get(location=location, date_build__year=year)
+#
+# 	context['images'] = galleries_image
+# 	return context
 
 
 class GalleriesDetailView(SelectRelatedMixin, generic.ListView):
-	model = models.BuildingImages
+	model = BuildingImages
 	select_related = ('location',)
 
 	def get_queryset(self, **kwargs):
 		print(kwargs)
 		try:
-			images = models.BuildingImages.objects.filter(date_build__year=kwargs['year']).order_by('date_build')
+			images = BuildingImages.objects.filter(date_build__year=kwargs['year']).order_by('date_build')
 			images = images.filter(location=kwargs['pk'])
 
-		except models.BuildingImages.DoesNotExist:
+		except BuildingImages.DoesNotExist:
 			raise Http404
 		else:
 			print(images)
 			return images.all()
-
-
-def get_context_data(self, **kwargs):
-	context = super().get_context_data(**kwargs)
-	context['images'] = self.location
-	return context
+	#
+	# def get_context_data(self, **kwargs):
+	# 	context = super().get_context_data(**kwargs)
+	# 	context['images'] = self.location
+	# 	return context

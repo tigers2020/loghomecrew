@@ -3,6 +3,7 @@
 __pycache__
 myvenv
 venv
+staticfiles
 .DS_Store
 .env
 .gitignore

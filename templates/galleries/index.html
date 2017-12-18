@@ -1,5 +1,6 @@
 {% extends 'home/base.html' %}
 {% block container %}
+
     {% regroup images|dictsortreversed:'date_build' by date_build|date:'Y' as year_list %}
 
     {% for image_list in year_list %}
