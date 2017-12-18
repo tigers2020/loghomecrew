@@ -6,20 +6,31 @@
 
 {% endblock %}
 {% block container %}
+
     {% regroup buildingimages_list|dictsortreversed:'date_build' by date_build|date:'Y' as year_list %}
-         <section class="featured_works row" data-steelar-background-ratio="0.3"
-                 style="background-position: 50% -150px;">
-         {% for image_list in year_list %}
+    <section class="featured_works row" data-steelar-background-ratio="0.3"
+             style="background-position: 50% -150px;">
+        {% for year, image_list in year_list %}
 
             <div class="tittle wow fadeInUp"
                  style="visibility: visible; -webkit-animation-name: fadeInUp;-moz-animation-name: fadeInUp;-o-animation-name: fadeInUp;animation-name: fadeInUp;">
-                <h2>{{ image_list.grouper }}</h2>
+                <h2>{{ year }}</h2>
+            </div>
+            <div id="js-filters-juicy-projects" class="cbp-l-filters-button">
+                <div data-filter="*" class="cbp-filter-item cbp-filter-item-active">
+                    All
+                    <div class="cbp-filter-counter">{{ image_list.count }}</div>
+                </div>
+                {% for image in image_list|a %}
+
+                {% endfor %}
+
             </div>
             <div class="featured_gallery">
-                {% for image in image_list.list %}
+                {% for image in image_list %}
                     {% for location in locations %}
                         {% if location == image.location %}
-                            <div class="col-md-3 col-sm-4 col-xl-6 gallery_iner p0">
+                            <div class="col-md-3 col-sm-4 col-xl-6 gallery_iner p0 {{ image.location.state }}">
                                 <img src="/media/{{ image.image }}" alt>
                                 <div class="gallery_hover">
                                     <h4>{{ location }}</h4>
@@ -33,32 +44,32 @@
 
                 {% endfor %}
             </div>
-         {% endfor %}
-        </section>
+        {% endfor %}
+    </section>
 
 
-{#    <section class="gallery">#}
-{#        <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat cbp-caption-active cbp-caption-fadeIn cbp-ready">#}
-{##}
-{#            {% for buildingimages in buildingimages_list %}#}
-{#                <div class="cbp-item" style="width: 380px;">#}
-{#                    <a href="{{ buildingimages.image.url }}" class="cbp-caption cbp-lightbox"#}
-{#                       data-title="<h4>{{ buildingimages.title }}</h4>{{ buildingimages.description }}">#}
-{#                        <div class="cbp-caption-defaultWrap">#}
-{#                            <img src="{{ buildingimages.image.url }}" alt="" data-current="{{ forloop.counter }}">#}
-{#                        </div>#}
-{#                        <div class="cbp-caption-activeWrap">#}
-{#                            <div class="cbp-l-caption-alignCenter">#}
-{#                                <div class="cbp-l-caption-body">#}
-{#                                    <div class="cbp-l-caption-title">{{ buildingimages.title }}</div>#}
-{#                                </div>#}
-{#                            </div>#}
-{#                        </div>#}
-{#                    </a>#}
-{#                </div>#}
-{#            {% endfor %}#}
-{#        </div>#}
-{#    </section>#}
+    {#    <section class="gallery">#}
+    {#        <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat cbp-caption-active cbp-caption-fadeIn cbp-ready">#}
+    {##}
+    {#            {% for buildingimages in buildingimages_list %}#}
+    {#                <div class="cbp-item" style="width: 380px;">#}
+    {#                    <a href="{{ buildingimages.image.url }}" class="cbp-caption cbp-lightbox"#}
+    {#                       data-title="<h4>{{ buildingimages.title }}</h4>{{ buildingimages.description }}">#}
+    {#                        <div class="cbp-caption-defaultWrap">#}
+    {#                            <img src="{{ buildingimages.image.url }}" alt="" data-current="{{ forloop.counter }}">#}
+    {#                        </div>#}
+    {#                        <div class="cbp-caption-activeWrap">#}
+    {#                            <div class="cbp-l-caption-alignCenter">#}
+    {#                                <div class="cbp-l-caption-body">#}
+    {#                                    <div class="cbp-l-caption-title">{{ buildingimages.title }}</div>#}
+    {#                                </div>#}
+    {#                            </div>#}
+    {#                        </div>#}
+    {#                    </a>#}
+    {#                </div>#}
+    {#            {% endfor %}#}
+    {#        </div>#}
+    {#    </section>#}
 {% endblock %}
 {% block custom_js %}
     <script type="text/javascript"

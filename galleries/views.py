@@ -9,12 +9,12 @@ from .models import BuildingImages, Location
 class GalleriesIndexView(generic.ListView):
 	model = BuildingImages
 
-	def get_context_data(self,**kwargs):
+	def get_context_data(self, **kwargs):
 		context = super(GalleriesIndexView, self).get_context_data(**kwargs)
 		context['locations'] = Location.objects.all()
-
-		print(context)
 		return context
+
+
 # def get_context_data(self, **kwargs):
 # 	context = super(GalleriesIndexView, self).get_context_data(**kwargs)
 #
@@ -52,8 +52,8 @@ class GalleriesDetailView(SelectRelatedMixin, generic.ListView):
 		else:
 			print(images)
 			return images.all()
-	#
-	# def get_context_data(self, **kwargs):
-	# 	context = super().get_context_data(**kwargs)
-	# 	context['images'] = self.location
-	# 	return context
+#
+# def get_context_data(self, **kwargs):
+# 	context = super().get_context_data(**kwargs)
+# 	context['images'] = self.location
+# 	return context
