@@ -12,6 +12,8 @@ class GalleriesIndexView(generic.ListView):
 	def get_context_data(self, **kwargs):
 		context = super(GalleriesIndexView, self).get_context_data(**kwargs)
 		context['locations'] = Location.objects.all()
+		year_list = BuildingImages.objects.values_list('date_build_year', flat=True).distinct()
+
 		return context
 
 

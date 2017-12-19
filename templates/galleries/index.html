@@ -1,34 +1,37 @@
 {% extends 'home/base.html' %}
+{% block custom_css %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/vendors/ilightbox/css/ilightbox.css' %}"/>
+{% endblock %}
 {% block container %}
+    <a href="#gallery_box" id="my_gallery"><img
+            src="{{ buildingimages_list.0.thumb_image.url }}" data-type="inline"></a>
 
-    {% regroup images|dictsortreversed:'date_build' by date_build|date:'Y' as year_list %}
+    <div id="gallery_box" style="display: none;">light box goes here</div>
+{% endblock %}
 
-    {% for image_list in year_list %}
-        <section class="featured_works row" data-steelar-background-ratio="0.3"
-                 style="background-position: 50% -150px;">
-            <div class="tittle wow fadeInUp"
-                 style="visibility: visible; -webkit-animation-name: fadeInUp;-moz-animation-name: fadeInUp;-o-animation-name: fadeInUp;animation-name: fadeInUp;">
-                <h2>{{ image_list.grouper }}</h2>
-            </div>
-            <div class="featured_gallery">
-                {% for image in image_list.list %}
-                    {% for location in locations %}
-                        {% if location == image.location %}
-                            <div class="col-md-3 col-sm-4 col-xl-6 gallery_iner p0">
-                                <img src="/media/{{ image.image }}" alt>
-                                <div class="gallery_hover">
-                                    <h4>{{ location }}</h4>
-                                    <a href="{% url 'galleries_app:galleries_detail' image.date_build.year image.location_id %}">View
-                                        More</a>
-                                </div>
-                            </div>
-                        {% endif %}
-
+{% block custom_js %}
+    <script type="text/javascript"
+            src="{% static 'main/vendors/ilightbox/js/jquery.requestAnimationFrame.js' %}"></script>
+    <script type="text/javascript" src="{% static 'main/vendors/ilightbox/js/jquery.mousewheel.js' %}"></script>
+    <script type="text/javascript" src="{% static 'main/vendors/ilightbox/js/ilightbox.packed.js' %}"></script>
+    <script>
+        $('#my_gallery').click(function () {
+            $.iLightBox([
+                    {% for buildingimages in buildingimages_list %}
+                        {
+                            url: '{{ buildingimages.image.url }}'
+                        },
                     {% endfor %}
 
-                {% endfor %}
-            </div>
-        </section>
+                ],
+                {
+                    skin: 'metro-black',
+                    startFrom: 1
+                }
+            );
+        });
 
-    {% endfor %}
+    </script>
 {% endblock %}
+

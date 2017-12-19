@@ -51,3 +51,8 @@ def contact(request):
 		'error': errors,
 	}
 	return render(request, "home/contact_us.html", context)
+
+
+class TestView(generic.ListView):
+	template_name = 'galleries/index.html'
+	model = BuildingImages

@@ -22,7 +22,7 @@ class CategoryAdmin(admin.ModelAdmin):
 	list_display = ('title', 'image', 'description', 'date', 'published', )
 
 class GalleriesAdmin(admin.ModelAdmin):
-	list_display = ("title", "image_tag", "location", "published", "imgorigsize", "date_build",)
+	list_display = ("title", "image_tag", "location", "published", "imgorigsize", "date_build", "date_build_year",)
 	ordering = ('date_build',)
 	readonly_fields = ('image_tag',)
 	actions = [apply_to_publish]

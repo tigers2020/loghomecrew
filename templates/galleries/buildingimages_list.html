@@ -1,79 +1,91 @@
 {% extends 'home/base.html' %}
 {% load static %}
 {% block custom_css %}
-    <link rel="stylesheet" type="text/css" href="{% static 'main/css/cubeportfolio.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'main/vendors/ilightbox/css/ilightbox.css' %}"/>
+
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/gallery.css' %}"/>
 
 {% endblock %}
 {% block container %}
 
-    {% regroup buildingimages_list|dictsortreversed:'date_build' by date_build|date:'Y' as year_list %}
-    <section class="featured_works row" data-steelar-background-ratio="0.3"
-             style="background-position: 50% -150px;">
-        {% for year, image_list in year_list %}
-
-            <div class="tittle wow fadeInUp"
-                 style="visibility: visible; -webkit-animation-name: fadeInUp;-moz-animation-name: fadeInUp;-o-animation-name: fadeInUp;animation-name: fadeInUp;">
+    {% regroup buildingimages_list|dictsortreversed:'date_build' by date_build|date:'Y' as image_by_year_list %}
+    <section class="featured_works row">
+        {% for year, image_by_year in image_by_year_list %}
+            <div class="tittle wow fadeInUp">
                 <h2>{{ year }}</h2>
             </div>
-            <div id="js-filters-juicy-projects" class="cbp-l-filters-button">
-                <div data-filter="*" class="cbp-filter-item cbp-filter-item-active">
-                    All
-                    <div class="cbp-filter-counter">{{ image_list.count }}</div>
-                </div>
-                {% for image in image_list|a %}
-
-                {% endfor %}
-
-            </div>
-            <div class="featured_gallery">
-                {% for image in image_list %}
-                    {% for location in locations %}
-                        {% if location == image.location %}
-                            <div class="col-md-3 col-sm-4 col-xl-6 gallery_iner p0 {{ image.location.state }}">
-                                <img src="/media/{{ image.image }}" alt>
-                                <div class="gallery_hover">
-                                    <h4>{{ location }}</h4>
-                                    <a href="{% url 'galleries_app:galleries_detail' image.date_build.year image.location_id %}">View
-                                        More</a>
-                                </div>
-                            </div>
-                        {% endif %}
-
-                    {% endfor %}
-
-                {% endfor %}
-            </div>
+            {% regroup image_by_year by location as image_by_location_list %}
+            {% for location, image_by_location in image_by_location_list %}
+                <a href="#gallery_light_box" id="{{ image_by_location.0.slug }}"><img
+                        src="{{ image_by_location.0.thumb_image.url }}"/></a>
+            {% endfor %}
         {% endfor %}
     </section>
-
-
-    {#    <section class="gallery">#}
-    {#        <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat cbp-caption-active cbp-caption-fadeIn cbp-ready">#}
-    {##}
-    {#            {% for buildingimages in buildingimages_list %}#}
-    {#                <div class="cbp-item" style="width: 380px;">#}
-    {#                    <a href="{{ buildingimages.image.url }}" class="cbp-caption cbp-lightbox"#}
-    {#                       data-title="<h4>{{ buildingimages.title }}</h4>{{ buildingimages.description }}">#}
-    {#                        <div class="cbp-caption-defaultWrap">#}
-    {#                            <img src="{{ buildingimages.image.url }}" alt="" data-current="{{ forloop.counter }}">#}
-    {#                        </div>#}
-    {#                        <div class="cbp-caption-activeWrap">#}
-    {#                            <div class="cbp-l-caption-alignCenter">#}
-    {#                                <div class="cbp-l-caption-body">#}
-    {#                                    <div class="cbp-l-caption-title">{{ buildingimages.title }}</div>#}
-    {#                                </div>#}
-    {#                            </div>#}
-    {#                        </div>#}
-    {#                    </a>#}
-    {#                </div>#}
-    {#            {% endfor %}#}
-    {#        </div>#}
-    {#    </section>#}
+    <div id="gallery_light_box" style="display: none;">light box div</div>
 {% endblock %}
 {% block custom_js %}
     <script type="text/javascript"
-            src="{% static 'main/vendors/cubeportfolio/js/jquery.cubeportfolio.min.js' %}"></script>
+            src="{% static 'main/vendors/ilightbox/js/jquery.requestAnimationFrame.js' %}"></script>
+    <script type="text/javascript" src="{% static 'main/vendors/ilightbox/js/jquery.mousewheel.js' %}"></script>
+    <script type="text/javascript" src="{% static 'main/vendors/ilightbox/js/ilightbox.packed.js' %}"></script>
+    <script>
+        $(document).ready(function () {
+            window.prettyPrint && prettyPrint();
+            {% regroup buildingimages_list|dictsortreversed:'date_build' by date_build|date:'Y' as image_by_year_list %}
+            {% for year, image_by_year in image_by_year_list %}
+                {% regroup image_by_year by location as image_by_location_list %}
+                {% for location, image_by_location in image_by_location_list %}
+                    $('#{{ image_by_location.0.slug }}').click(function () {
+                        $.iLightBox([
 
-    <script type="text/javascript" src="{% static 'main/js/gallery.js' %}"></script>
+                                {% for image in image_by_location %}
+                                    {
+                                        URL: "{{ image.image.url }}",
+                                        type: "image",
+                                        title: "{{ image.title }}",
+                                        caption: "{{ image.description }}",
+                                        options: {
+                                            thumbnail: "{{ image.thumb_image.url }}",
+                                        }
+                                    },
+                                {% endfor %}
+                            ],
+                            {
+                                skin: "metro-black",
+                                path: 'horizontal',
+                                overlay: {
+                                    opacity: .7,
+                                    blur: false
+                                },
+                                styles: {
+                                    nextOpacity: .55,
+                                    prevOpacity: .55
+                                }
+                            })
+                    });
+                {% endfor %}
+            {% endfor %}
+        });
+        $(window).load(function () {
+            $('[data-spy="scroll"]').each(function () {
+                var t = $(this);
+                t.scrollspy();
+                $(window).resize(function () {
+                    t.scrollspy('refresh');
+                    $(this).trigger('scroll');
+                });
+            });
+        });
+
+        window.___gcfg = {lang: "en"};
+        (function () {
+            var po = document.createElement("script");
+            po.type = "text/javascript";
+            po.async = true;
+            po.src = "https://apis.google.com/js/plusone.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+
 {% endblock %}

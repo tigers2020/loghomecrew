@@ -23,6 +23,7 @@ from home import views as home_views
 urlpatterns = [
 	url(r'^admin/', admin.site.urls),
 	url(r'^$', home_views.IndexView.as_view(), name='index_view'),
+	url(r'^test/', home_views.TestView.as_view(), name='test_view'),
 	url(r'^galleries/', include('galleries.urls')),
 	url(r'^article/', include('article.urls')),
 	url(r'^contact_us/', home_views.contact, name='contactus'),

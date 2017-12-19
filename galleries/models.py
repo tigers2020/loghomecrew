@@ -48,17 +48,18 @@ class Category(models.Model):
 
 
 class BuildingImages(models.Model):
-	category = models.ForeignKey(Category, on_delete=models.CASCADE, blank=True)
+	category = models.ForeignKey(Category, on_delete=models.CASCADE, blank=True, null=True)
 	title = models.CharField(max_length=255)
-	slug = models.SlugField(unique=True, allow_unicode=True, editable=False)
+	slug = models.SlugField(unique=True, allow_unicode=True, editable=False, null=True)
 	image = ResizedImageField(null=True, blank=True, upload_to=image_folder, size=[1280, 720], keep_meta=True,
 							  quality=90)
 	thumb_image = models.ImageField(upload_to=image_folder, editable=False, blank=True)
 	description = models.TextField()
-	imgorigsize = models.IntegerField(editable=False)
+	imgorigsize = models.IntegerField(editable=False, null=True, blank=True)
 	published = models.BooleanField(default=True)
 	location = models.ForeignKey(Location, on_delete=models.CASCADE)
 	date_build = models.DateField(auto_created=False, auto_now=False, auto_now_add=False, blank=True, editable=False)
+	date_build_year = models.CharField(max_length=32, null=True, blank=True, editable=False)
 
 	def __str__(self):
 		return self.title
@@ -108,6 +109,7 @@ class BuildingImages(models.Model):
 
 		self.imgorigsize = image_size
 		self.date_build = created_date
+		self.date_build_year = created_date.year
 		self.thumb_image.save(thumb_filename, ContentFile(temp_thumb.read()), save=False)
 		temp_thumb.close()
 
