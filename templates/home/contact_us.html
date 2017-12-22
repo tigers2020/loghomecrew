@@ -1,16 +1,21 @@
 {% extends 'home/base.html' %}
+
 {% block title %}
     Contact Us -
 {% endblock %}
 {% block custom_css %}
+{% load recaptcha2 %}
+    {% recaptcha_init %}
     {% load static %}
     <link rel="stylesheet" href="{% static 'main/css/contact_us.css' %}"/>
+
 {% endblock %}
 {% block container %}
     <section class="all_contact_info">
         <div class="container">
+            {{ success }}
             <div class="row contact_row">
-                <div class="col-sm-6 contact_info">
+                <div class="col-sm-5 contact_info">
                     <h2>Contact Info</h2>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
@@ -27,13 +32,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 contact_info send_message">
-                    <h2>Send Us a Message</h2>
-                    {% if sent_email %}
-                    <div class="text-success">{{ sent_email }}</div>
-                    {% endif %}
-                    <form class="form-inline contact_box AVAST_PAM_nonloginform">
-                       {{ form }}
+                <div class="col-sm-7 contact_info send_message">
+                    <h2>GET IN TOUCH & FEEDBACK</h2>
+                    <form class="form-inline contact_box" method="post">
+                        {% csrf_token %}
+                        {{ form.media }}
+                       {{ form.as_table }}
                         <button type="submit" class="btn btn-default">Send Message</button>
                     </form>
                 </div>

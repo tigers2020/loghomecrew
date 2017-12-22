@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth import get_user_model
 from django.utils.text import slugify
 import misaka
+from ckeditor.fields import RichTextField
 
 # Create your models here.
 from django.utils import timezone
@@ -36,7 +37,7 @@ class ArticleText(models.Model):
 	publish_date = models.DateTimeField(blank=True, null=True)
 	created_date = models.DateTimeField(auto_now_add=True)
 	modified_date = models.DateTimeField(auto_now_add=True)
-	article_text = models.TextField(blank=True, default='')
+	article_text = RichTextField(blank=True, default='')
 	article_text_html = models.TextField(editable=False, default="", blank=True)
 
 	def save(self, *args, **kwargs):

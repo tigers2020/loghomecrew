@@ -9,17 +9,25 @@
 {% block container %}
 
     {% regroup buildingimages_list|dictsortreversed:'date_build' by date_build|date:'Y' as image_by_year_list %}
-    <section class="featured_works row">
+    <section class="featured_works row" data-stellar-background-ratio="0.3">
         {% for year, image_by_year in image_by_year_list %}
             <div class="tittle wow fadeInUp">
                 <h2>{{ year }}</h2>
             </div>
-            {% regroup image_by_year by location as image_by_location_list %}
-            {% for location, image_by_location in image_by_location_list %}
-                <a href="#gallery_light_box" id="{{ image_by_location.0.slug }}"><img
-                        src="{{ image_by_location.0.thumb_image.url }}"/></a>
-            {% endfor %}
+            <div class="featured_gallery row">
+                {% regroup image_by_year by location as image_by_location_list %}
+                {% for location, image_by_location in image_by_location_list %}
+                    <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                        <img src="{{ image_by_location.0.thumb_image.url }}" alt="">
+                        <div class="gallery_hover">
+                            <h4>{{ location.name }}</h4>
+                            <a href="#gallery_light_box" id="{{ image_by_location.0.slug }}">VIEW MORE</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
         {% endfor %}
+
     </section>
     <div id="gallery_light_box" style="display: none;">light box div</div>
 {% endblock %}
@@ -44,7 +52,7 @@
                                         type: "image",
                                         title: "{{ image.title }}",
                                         caption: "{{ image.description }}",
-                                        options: { 
+                                        options: {
                                             thumbnail: "{{ image.thumb_image.url }}",
                                         }
                                     },

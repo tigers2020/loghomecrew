@@ -23,10 +23,11 @@ from home import views as home_views
 urlpatterns = [
 	url(r'^admin/', admin.site.urls),
 	url(r'^$', home_views.IndexView.as_view(), name='index_view'),
-	url(r'^test/', home_views.TestView.as_view(), name='test_view'),
 	url(r'^galleries/', include('galleries.urls')),
 	url(r'^article/', include('article.urls')),
-	url(r'^contact_us/', home_views.contact, name='contactus'),
+	url(r'^contact_us/', home_views.contact, name='contact_us'),
+	url(r'^contact_us/send_failed', home_views.contact_failed, name='failed'),
+	url(r'^contact_us/success', home_views.contact_success, name='success'),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

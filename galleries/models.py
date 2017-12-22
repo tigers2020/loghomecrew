@@ -6,6 +6,7 @@ from django.utils.text import slugify
 from django_resized import ResizedImageField
 from django.core.files.base import ContentFile
 from datetime import datetime
+from ckeditor.fields import RichTextField
 
 
 # Create your models here.
@@ -34,7 +35,7 @@ class Category(models.Model):
 	title = models.CharField(max_length=255)
 	slug = models.SlugField(unique=True, allow_unicode=True, blank=True)
 	image = models.ImageField(blank=True)
-	description = models.TextField(blank=True)
+	description = RichTextField(blank=True)
 	date = models.DateField(auto_now_add=True)
 	published = models.BooleanField(default=True)
 
@@ -54,7 +55,7 @@ class BuildingImages(models.Model):
 	image = ResizedImageField(null=True, blank=True, upload_to=image_folder, size=[1280, 720], keep_meta=True,
 							  quality=90)
 	thumb_image = models.ImageField(upload_to=image_folder, editable=False, blank=True)
-	description = models.TextField()
+	description = RichTextField()
 	imgorigsize = models.IntegerField(editable=False, null=True, blank=True)
 	published = models.BooleanField(default=True)
 	location = models.ForeignKey(Location, on_delete=models.CASCADE)

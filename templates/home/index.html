@@ -15,8 +15,7 @@
                             <h5 class="wow fadeInUp animated">{{ buildImage.title }}</h5>
                             <p class="wow fadeInUp animated" data-wow-delay="0.8s">{{ buildImage.description }}</p>
                             <a class="wow fadeInUp animated" data-wow-delay="1s"
-                               href="{% url 'galleries_app:galleries_detail' buildImage.date_build.year buildImage.location_id %}">View
-                                More</a>
+                               href="{% url 'galleries_app:galleries_index' %}">View More</a>
                         </div>
                     </div>
                 </div>
@@ -50,23 +49,23 @@
         </div>
     </section>
     <section class="about_us_area">
-    <div class="container">
-        <div class="tittle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp">
-            <h2>About us</h2>
-            <h4>Who We Are</h4>
-        </div>
-        <div class="about_row row">
-            <div class="who_we_area col-md-7 col-sm-6">
-                <div class="subtittle">
-                    <h2>{{ aboutus.title }}</h2>
+        <div class="container">
+            <div class="tittle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp">
+                <h2>About us</h2>
+                <h4>Who We Are</h4>
+            </div>
+            <div class="about_row row">
+                <div class="who_we_area col-md-7 col-sm-6">
+                    <div class="subtittle">
+                        <h2>{{ aboutus.title }}</h2>
+                    </div>
+                    {{ aboutus.article_text|safe }}
+                    <a href="#" class="button_all">Contact Now</a>
                 </div>
-                {{ aboutus.article_text|safe }}
-                <a href="#" class="button_all">Contact Now</a>
-            </div>
-            <div class="col-md-5 col-sm-6 about_client">
-                <img src="{{ aboutus.image.url }}" alt>
+                <div class="col-md-5 col-sm-6 about_client">
+                    <img src="{{ aboutus.image.url }}" alt>
+                </div>
             </div>
         </div>
-    </div>
     </section>
 {% endblock %}
