@@ -37,13 +37,15 @@ def contact(request):
 			first_name = form.cleaned_data.get("first_name")
 			last_name = form.cleaned_data.get("last_name")
 			from_email = form.cleaned_data.get("email")
-			subject = form.cleaned_data.get("subject") + "-" + first_name + " " + last_name
+			feedback = form.cleaned_data('feed_back')
+
+			subject = '[%s]'.format(feedback) + form.cleaned_data.get("subject") + "-" + first_name + " " + last_name
 			body_message = form.cleaned_data.get("message")
 
 			if send_mail(subject, body_message, from_email, recipient_list=['paulnephesh@gmail.com'],
 						 html_message=body_message):
 				print("sending email success")
-				thank_you = {"thank you for sending email."}
+				thank_you = {"You have successfully submitted. We will contact you in short time."}
 			else:
 				print('sending email failed')
 

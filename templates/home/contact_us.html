@@ -12,8 +12,14 @@
 {% endblock %}
 {% block container %}
     <section class="all_contact_info">
-        <div class="container">
+    {% if success %}
+        <div class="alert block alert-success">
+        <a class="close" data-dismiss="alert" href="#">X</a>
+            <h4>Congratulation!</h4>
             {{ success }}
+        </div>
+    {% endif %}
+        <div class="container">
             <div class="row contact_row">
                 <div class="col-sm-5 contact_info">
                     <h2>Contact Info</h2>
@@ -32,7 +38,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-7 contact_info send_message">
+                <div class="col-sm-7 contact_info send_message form-group">
                     <h2>GET IN TOUCH & FEEDBACK</h2>
                     <form class="form-inline contact_box" method="post">
                         {% csrf_token %}

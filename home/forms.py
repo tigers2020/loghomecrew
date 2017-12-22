@@ -5,6 +5,15 @@ from snowpenguin.django.recaptcha2.fields import ReCaptchaField
 from snowpenguin.django.recaptcha2.widgets import ReCaptchaWidget
 
 
+def get_question_type():
+	questions = (
+		('1', 'Feed Back'),
+		('2', 'General Questions'),
+		('3', 'Purchase')
+	)
+	return questions
+
+
 class ContactForm(forms.Form):
 	first_name = forms.CharField(label='', widget=forms.TextInput(
 		attrs={'placeholder': 'First Name', 'class': 'form-control input_box'}))
@@ -14,6 +23,7 @@ class ContactForm(forms.Form):
 							 widget=forms.TextInput(attrs={'placeholder': 'E-Mail', 'class': 'form-control input_box'}))
 	subject = forms.CharField(label='', widget=forms.TextInput(
 		attrs={'placeholder': 'Subject', 'class': 'form-control input_box'}))
+	topic = forms.ChoiceField(choices=get_question_type(), label='', widget=forms.Select(attrs={'class':'form-control input_box'}))
 	message = RichTextFormField(label='', widget=CKEditorWidget(
 		attrs={'placeholder': 'Message', 'class': 'form-control input_box'}))
 	captcha = ReCaptchaField(widget=ReCaptchaWidget(), label="")

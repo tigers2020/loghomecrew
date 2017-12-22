@@ -15,6 +15,8 @@ from decouple import config, Csv
 import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from django.utils import timezone
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
@@ -174,66 +176,96 @@ CKEDITOR_UPLOAD_PATH = "ckeditor/upload/"
 CKEDITOR_ALLOW_NONIMAGE_FILES = False
 
 CKEDITOR_CONFIGS = {
-    'default': {
-        'skin': 'moono',
-        #'skin': 'office2013',
-        'toolbar_Basic': [
-            ['Source', '-', 'Bold', 'Italic']
-        ],
-        'toolbar_YourCustomToolbarConfig': [
+	'default': {
+		'skin': 'moono',
+		# 'skin': 'office2013',
+		'toolbar_Basic': [
+			['Source', '-', 'Bold', 'Italic']
+		],
+		'toolbar_YourCustomToolbarConfig': [
 
-            {'name': 'clipboard', 'items': ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo']},
-            {'name': 'editing', 'items': ['Find', 'Replace', '-', 'SelectAll']},
+			{'name': 'clipboard', 'items': ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo']},
+			{'name': 'editing', 'items': ['Find', 'Replace', '-', 'SelectAll']},
 			{'name': 'document', 'items': ['Source']},
 			{'name': 'basicstyles',
-             'items': ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat']},
-            {'name': 'paragraph',
-             'items': ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-',
-                       'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl',
-                       'Language']},
-            {'name': 'insert',
-             'items': ['Image', 'Table', 'HorizontalRule', 'SpecialChar', 'PageBreak']},
-            '/',
-            {'name': 'styles', 'items': ['Styles', 'Format', 'Font', 'FontSize']},
-            {'name': 'colors', 'items': ['TextColor', 'BGColor']},
-            {'name': 'tools', 'items': ['Maximize', 'ShowBlocks']},
-            {'name': 'about', 'items': ['About']},
-            '/',  # put this to force next toolbar on new line
+			 'items': ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat']},
+			{'name': 'paragraph',
+			 'items': ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-',
+					   'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl',
+					   'Language']},
+			{'name': 'insert',
+			 'items': ['Image', 'Table', 'HorizontalRule', 'SpecialChar', 'PageBreak']},
+			'/',
+			{'name': 'styles', 'items': ['Styles', 'Format', 'Font', 'FontSize']},
+			{'name': 'colors', 'items': ['TextColor', 'BGColor']},
+			{'name': 'tools', 'items': ['Maximize', 'ShowBlocks']},
+			{'name': 'about', 'items': ['About']},
+			'/',  # put this to force next toolbar on new line
 
-        ],
-        'toolbar': 'YourCustomToolbarConfig',  # put selected toolbar config here
-        # 'toolbarGroups': [{ 'name': 'document', 'groups': [ 'mode', 'document', 'doctools' ] }],
-        # 'height': 291,
-         'width': '100%',
-        # 'filebrowserWindowHeight': 725,
-        # 'filebrowserWindowWidth': 940,
-        # 'toolbarCanCollapse': True,
-        # 'mathJaxLib': '//cdn.mathjax.org/mathjax/2.2-latest/MathJax.js?config=TeX-AMS_HTML',
-        'tabSpaces': 4,
-        'extraPlugins': ','.join([
-            'uploadimage', # the upload image feature
-            # your extra plugins here
-            'div',
-            'autolink',
-            'autoembed',
-            'embedsemantic',
-            'autogrow',
-            # 'devtools',
-            'widget',
-            'lineutils',
-            'clipboard',
-            'dialog',
-            'dialogui',
-            'elementspath'
-        ]),
-    }
+		],
+		'toolbar': 'YourCustomToolbarConfig',  # put selected toolbar config here
+		# 'toolbarGroups': [{ 'name': 'document', 'groups': [ 'mode', 'document', 'doctools' ] }],
+		# 'height': 291,
+		'width': '100%',
+		# 'filebrowserWindowHeight': 725,
+		# 'filebrowserWindowWidth': 940,
+		# 'toolbarCanCollapse': True,
+		# 'mathJaxLib': '//cdn.mathjax.org/mathjax/2.2-latest/MathJax.js?config=TeX-AMS_HTML',
+		'tabSpaces': 4,
+		'extraPlugins': ','.join([
+			'uploadimage',  # the upload image feature
+			# your extra plugins here
+			'div',
+			'autolink',
+			'autoembed',
+			'embedsemantic',
+			'autogrow',
+			# 'devtools',
+			'widget',
+			'lineutils',
+			'clipboard',
+			'dialog',
+			'dialogui',
+			'elementspath'
+		]),
+	}
 }
-
 
 # recaptcha
 RECAPTCHA_PRIVATE_KEY = config('RECAPTCHA_PRIVATE_KEY')
 RECAPTCHA_PUBLIC_KEY = config('RECAPTCHA_PUBLIC_KEY')
 
-
 # taggit
 TAGGIT_CASE_INSENSITIVE = True
+
+# Logging
+LOGGING = {
+	'version': 1,
+	'disable_existing_loggers': False,
+	'filters': {
+		'require_debug_false': {
+			'()': 'django.utils.log.RequireDebugFalse'
+		}
+	},
+	'handlers': {
+		'mail_admins': {
+			'level': 'ERROR',
+			'filters': ['require_debug_false'],
+			'class': 'django.utils.log.AdminEmailHandler'
+		}
+	},
+	'loggers': {
+		'django.request': {
+			'handlers': ['mail_admins'],
+			'level': 'ERROR',
+			'propagate': True,
+		},
+		'applogfile': {
+			'level': 'DEBUG',
+			'class': 'logging.handlers.RotatingFileHandler',
+			'filename': os.path.join(BASE_DIR, str(timezone.now()) + '.log'),
+			'maxBytes': 1024 * 1024 * 15,  # 15MB
+			'backupCount': 10,
+		},
+	}
+}
