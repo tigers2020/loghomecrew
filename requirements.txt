@@ -12,3 +12,4 @@ django-braces==1.11.0
 django-anymail==1.2
 django-recaptcha2==1.0.3
 django-taggit==0.22.1
+django-anymail==1.2
