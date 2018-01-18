@@ -21,7 +21,7 @@
                         <img src="{{ image_by_location.0.thumb_image.url }}" alt="">
                         <div class="gallery_hover">
                             <h4>{{ location.name }}</h4>
-                            <a href="#gallery_light_box" id="{{ image_by_location.0.slug }}">VIEW MORE</a>
+                            <a href="#gallery_light_box" id="{{ image_by_location.0.pk }}">VIEW MORE</a>
                         </div>
                     </div>
                 {% endfor %}
@@ -43,7 +43,7 @@
             {% for year, image_by_year in image_by_year_list %}
                 {% regroup image_by_year by location as image_by_location_list %}
                 {% for location, image_by_location in image_by_location_list %}
-                    $('#{{ image_by_location.0.slug }}').click(function () {
+                    $('#{{ image_by_location.0.pk }}').click(function () {
                         $.iLightBox([
 
                                 {% for image in image_by_location %}

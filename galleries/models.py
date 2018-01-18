@@ -50,12 +50,11 @@ class Category(models.Model):
 
 class BuildingImages(models.Model):
 	category = models.ForeignKey(Category, on_delete=models.CASCADE, blank=True, null=True)
-	title = models.CharField(max_length=255)
-	slug = models.SlugField(unique=True, allow_unicode=True, editable=False, null=True)
+	title = models.CharField(max_length=255, blank=True, null=True)
 	image = ResizedImageField(null=True, blank=True, upload_to=image_folder, size=[1280, 720], keep_meta=True,
 							  quality=90)
 	thumb_image = models.ImageField(upload_to=image_folder, editable=False, blank=True)
-	description = RichTextField()
+	description = RichTextField(blank=True, null=True)
 	imgorigsize = models.IntegerField(editable=False, null=True, blank=True)
 	published = models.BooleanField(default=True)
 	location = models.ForeignKey(Location, on_delete=models.CASCADE)
@@ -74,7 +73,8 @@ class BuildingImages(models.Model):
 		if not self.pk:
 			if not self.save_thumbnail():
 				raise Exception('Could not create thumbnail - is the file type valid?')
-		self.slug = str(self.pk) + '-' + slugify(self.title)
+		if not self.title:
+			self.title = self.location.name
 
 		super(BuildingImages, self).save(*args, **kwargs)
 

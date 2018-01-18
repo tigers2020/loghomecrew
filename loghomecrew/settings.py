@@ -155,7 +155,14 @@ STATIC_URL = '/static/'
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# MIDDLEWARE_CLASSES = [
+# # 'django.middleware.security.SecurityMiddleware',
+# 'whitenoise.middleware.WhiteNoiseMiddleware',
+# #...
+# ]
+# STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Django Resize settings
 DJANGORESIZED_DEFAULT_SIZE = [1920, 1080]
@@ -239,33 +246,33 @@ RECAPTCHA_PUBLIC_KEY = config('RECAPTCHA_PUBLIC_KEY')
 TAGGIT_CASE_INSENSITIVE = True
 
 # Logging
-LOGGING = {
-	'version': 1,
-	'disable_existing_loggers': False,
-	'filters': {
-		'require_debug_false': {
-			'()': 'django.utils.log.RequireDebugFalse'
-		}
-	},
-	'handlers': {
-		'mail_admins': {
-			'level': 'ERROR',
-			'filters': ['require_debug_false'],
-			'class': 'django.utils.log.AdminEmailHandler'
-		}
-	},
-	'loggers': {
-		'django.request': {
-			'handlers': ['mail_admins'],
-			'level': 'ERROR',
-			'propagate': True,
-		},
-		'applogfile': {
-			'level': 'DEBUG',
-			'class': 'logging.handlers.RotatingFileHandler',
-			'filename': os.path.join(BASE_DIR, str(timezone.now()) + '.log'),
-			'maxBytes': 1024 * 1024 * 15,  # 15MB
-			'backupCount': 10,
-		},
-	}
-}
+# LOGGING = {
+# 	'version': 1,
+# 	'disable_existing_loggers': False,
+# 	'filters': {
+# 		'require_debug_false': {
+# 			'()': 'django.utils.log.RequireDebugFalse'
+# 		}
+# 	},
+# 	'handlers': {
+# 		'mail_admins': {
+# 			'level': 'ERROR',
+# 			'filters': ['require_debug_false'],
+# 			'class': 'django.utils.log.AdminEmailHandler'
+# 		}
+# 	},
+# 	'loggers': {
+# 		'django.request': {
+# 			'handlers': ['mail_admins'],
+# 			'level': 'ERROR',
+# 			'propagate': True,
+# 		},
+# 		'applogfile': {
+# 			'level': 'DEBUG',
+# 			'class': 'logging.handlers.RotatingFileHandler',
+# 			'filename': os.path.join(BASE_DIR, str(timezone.now()) + '.log'),
+# 			'maxBytes': 1024 * 1024 * 15,  # 15MB
+# 			'backupCount': 10,
+# 		},
+# 	}
+# }

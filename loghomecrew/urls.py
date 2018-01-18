@@ -16,12 +16,15 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.conf.urls.static import static
+from django.views.generic import RedirectView
+
 from loghomecrew import settings
 from home import views as home_views
 
 
 urlpatterns = [
 	url(r'^admin/', admin.site.urls),
+	url(r'^favicon\.ico$', RedirectView.as_view(url='/static/main/favicon/favicon.ico')),
 	url(r'^$', home_views.IndexView.as_view(), name='index_view'),
 	url(r'^galleries/', include('galleries.urls')),
 	url(r'^article/', include('article.urls')),
