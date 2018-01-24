@@ -3,7 +3,15 @@
 Q&A
 {% endblock %}
 {% block container %}
-<div class="panel-group" id="accordion">
+    <section class="mini-slider container-fluid">
+    <div class="mini-banner" style="height: 50px;">
+            {% for buildImage in buildImages %}
+                <div data-thumb="{{ buildImage.image.url }}" data-src="{{ buildImage.image.url }}" style="height: 150px">
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+<div class="panel-group container" id="accordion" style="margin-top: 3em;">
   {% for faq in faqs %}
     <div class="panel panel-default">
     <div class="panel-heading">
@@ -19,4 +27,22 @@ Q&A
   {% endfor %}
 
 </div>
+{% endblock %}
+
+{% block custom_js %}
+<script>
+    $(document).ready(function () {
+        $('.mini-banner').camera(
+            {
+                height:'20%',
+                pagination: false,
+                mobileAutoAdvance: true,
+                fx: 'random',
+                navigation: false,
+                playPause: false,
+
+            }
+        );
+    })
+</script>
 {% endblock %}

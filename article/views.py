@@ -1,6 +1,9 @@
+import random
+
 from django.utils import timezone
 
 from article.models import ArticleText
+from galleries.models import BuildingImages
 from . import models
 from django.views import generic
 
@@ -41,5 +44,15 @@ class FaQView(generic.TemplateView):
 
 	def get_context_data(self, **kwargs):
 		context = super(FaQView, self).get_context_data(**kwargs)
+
+		slider_image = list(BuildingImages.objects.all())
+
+		random.shuffle(slider_image)
+
+		image_list = []
+		for image in slider_image[:5]:
+			image_list.append(image)
+
 		context['faqs'] = ArticleText.objects.filter(category=4)
+		context['buildImages'] = image_list
 		return context

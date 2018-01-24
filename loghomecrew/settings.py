@@ -200,6 +200,7 @@ CKEDITOR_CONFIGS = {
 			 'items': ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-',
 					   'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl',
 					   'Language']},
+			{'name': 'links', 'items': ['Link', 'Unlink', 'Anchor']},
 			{'name': 'insert',
 			 'items': ['Image', 'Table', 'HorizontalRule', 'SpecialChar', 'PageBreak']},
 			'/',
