@@ -1,12 +1,12 @@
-from django.http import HttpResponseRedirect, HttpResponse
+import random
+
+from django.core.mail import send_mail
+from django.http import HttpResponse
 from django.shortcuts import render
 from django.views import generic
-from galleries.models import BuildingImages
-from article.models import ArticleText
-from anymail.message import AnymailMessage
-from django.conf import settings
-from django.core.mail import send_mail, EmailMessage
 
+from article.models import ArticleText
+from galleries.models import BuildingImages
 # Create your views here.
 from home.forms import ContactForm
 
@@ -16,7 +16,16 @@ class IndexView(generic.TemplateView):
 
 	def get_context_data(self, **kwargs):
 		context = super(IndexView, self).get_context_data(**kwargs)
-		context['buildImages'] = BuildingImages.objects.filter(category=1)
+
+		slider_image = list(BuildingImages.objects.all())
+
+		random.shuffle(slider_image)
+
+		image_list = []
+		for image in slider_image[:5]:
+			image_list.append(image)
+
+		context['buildImages'] = image_list
 		context['articletext'] = ArticleText.objects.filter(category=1)
 		context['aboutus'] = ArticleText.objects.get(title="About Us")
 		return context

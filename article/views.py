@@ -32,7 +32,7 @@ class AboutUsView(generic.ListView):
 
 	def get_context_data(self, **kwargs):
 		context = super(AboutUsView, self).get_context_data(**kwargs)
-		context['about_us'] = ArticleText.objects.filter(category=2).order_by('pk')
+		context['about_us'] = ArticleText.objects.filter(category=2, publish=True).order_by('pk')
 		context['feed_back'] = ArticleText.objects.filter(category=3).order_by('pk')
 		print(context)
 		return context
@@ -45,14 +45,20 @@ class FaQView(generic.TemplateView):
 	def get_context_data(self, **kwargs):
 		context = super(FaQView, self).get_context_data(**kwargs)
 
-		slider_image = list(BuildingImages.objects.all())
+		image_list = get_random_images()
 
-		random.shuffle(slider_image)
-
-		image_list = []
-		for image in slider_image[:5]:
-			image_list.append(image)
-
-		context['faqs'] = ArticleText.objects.filter(category=4)
+		context['faqs'] = ArticleText.objects.filter(category=4, publish=True)
 		context['buildImages'] = image_list
 		return context
+
+
+def get_random_images():
+	slider_image = list(BuildingImages.objects.all())
+
+	random.shuffle(slider_image)
+
+	image_list = []
+	for image in slider_image[:5]:
+		image_list.append(image)
+
+	return image_list;

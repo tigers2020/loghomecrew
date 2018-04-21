@@ -70,6 +70,7 @@ class BuildingImages(models.Model):
 	image_tag.allow_tags = True
 
 	def save(self, *args, **kwargs):
+
 		if not self.pk:
 			if not self.save_thumbnail():
 				raise Exception('Could not create thumbnail - is the file type valid?')

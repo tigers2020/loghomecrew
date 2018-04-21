@@ -1,8 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a24847f-fd05-42ee-b161-937bd12186e8" name="Default" comment="">
+    <list default="true" id="2a24847f-fd05-42ee-b161-937bd12186e8" name="Default" comment="update 4-21-18">
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/7/Blevins_MD_002.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/7/Blevins_MD_002_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/7/Blevins_MD_010.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/7/Blevins_MD_010_b1NxM2M.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/7/Blevins_MD_010_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/7/Blevins_MD_010_thumb_bH25fjm.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/7/Blevins_MD_011.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/7/Blevins_MD_011_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/7/Blevins_MD_015.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/7/Blevins_MD_015_thumb_Bo8rc5q.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/8/Blevins_MD2_004.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/8/Blevins_MD2_004_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/8/Blevins_MD_010_2.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/8/Blevins_MD_010_2_qPxcO2o.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/8/Blevins_MD_010_2_thumb_P4L1ryH.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/8/Blevins_MD_010_2_thumb_QpJAGew.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/8/Blevins_MD_013_2.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/MD/2007/8/Blevins_MD_013_2_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2005/8/dave_white_sidney_ctr_ny_002.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2005/8/dave_white_sidney_ctr_ny_002_thumb_xSiKck9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2005/8/dave_white_sidney_ctr_ny_004.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2005/8/dave_white_sidney_ctr_ny_004_thumb_L53AsvF.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2005/8/dave_white_sidney_ctr_ny_009.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2005/8/dave_white_sidney_ctr_ny_009_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00033.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00033_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00069.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00069_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00115.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00115_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00223.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00223_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00259.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00259_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00313.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00313_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00501.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00501_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00635.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00635_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00755.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00755_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00873.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2007/8/DSC00873_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/2/Cranston_job_NY_005_5.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/2/Cranston_job_NY_005_5_thumb_vnfmL5S.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/2/Cranston_job_NY_009_5.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/2/Cranston_job_NY_009_5_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/2/Cranston_job_NY_014_4.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/2/Cranston_job_NY_014_4_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/3/Cranston_job_NY_024_3.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/3/Cranston_job_NY_024_3_thumb_lMqgGGv.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/4/Cranston_job_NY_004_2.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/4/Cranston_job_NY_004_2_thumb_XCMqRCZ.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/4/Cranston_job_NY_006_2.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/4/Cranston_job_NY_006_2_thumb_GfFvLTD.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/4/Cranston_job_NY_027_2.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/4/Cranston_job_NY_027_2_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/6/Bogdon_NY_001_13.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/6/Bogdon_NY_001_13_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_001_3.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_001_3_thumb_5yIZo0U.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_001_7.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_001_7_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_003_4.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_003_4_thumb_cjLKzUW.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_003_9.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_003_9_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_004_2.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_004_2_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_004_4.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_004_4_thumb_v8MWCEA.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_007_3.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_007_3_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_008_2.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_008_2_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_008_4.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_008_4_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_009_3.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_009_3_thumb_lANXBc2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_010_4.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_010_4_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_016_4.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_016_4_thumb_7M3EegO.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_024_2.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_024_2_thumb_Bzr7MIB.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_024_3.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_024_3_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_027_2.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_027_2_thumb_A0FJJgx.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_043_5.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_043_5_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_043_5_thumb_FOsL0fR.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/NY/2008/7/Bogdon_NY_043_5_zThNa6O.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/007a.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/007a_1uHvX30.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/007a_7xSsHvD.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/007a_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/007a_thumb_A8V9dpj.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/007a_thumb_gEgZKeY.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/063.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/063_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/Burgees_Job_Franklin_VA_012.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/Burgees_Job_Franklin_VA_012_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/Burgees_Job_Franklin_VA_013.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/Burgees_Job_Franklin_VA_013_thumb_eBw8W0Y.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/Burgees_Job_Franklin_VA_060.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/Burgees_Job_Franklin_VA_060_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/Burgees_Job_Franklin_VA_063.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/Burgees_Job_Franklin_VA_063_thumb_zrIqRw5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/DSC00494.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2007/6/DSC00494_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/10/Kybler_job_wintergreen_VA_001_10.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/10/Kybler_job_wintergreen_VA_001_10_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/10/Kybler_job_wintergreen_VA_001_5.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/10/Kybler_job_wintergreen_VA_001_5_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/10/Kybler_job_wintergreen_VA_002_5.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/10/Kybler_job_wintergreen_VA_002_5_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/11/Kybler_job_wintergreen_VA__005.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/11/Kybler_job_wintergreen_VA__005_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/11/Kybler_job_wintergreen_VA__009.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/11/Kybler_job_wintergreen_VA__009_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/11/Kybler_job_wintergreen_VA__013.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/11/Kybler_job_wintergreen_VA__013_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA_002_13.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA_002_13_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA_003_13.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA_003_13_thumb_9I9Y2pT.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA_004_12.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA_004_12_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA_5_014.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA_5_014_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA_7_013.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA_7_013_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA__020.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/8/Kybler_job_wintergreen_VA__020_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/9/Kybler_job_wintergreen_VA_003_8.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/9/Kybler_job_wintergreen_VA_003_8_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/9/Kybler_job_wintergreen_VA_052.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/9/Kybler_job_wintergreen_VA_052_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/9/Kybler_job_wintergreen_VA_4_014.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/9/Kybler_job_wintergreen_VA_4_014_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/9/Kybler_job_wintergreen_VA_8_001.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/VA/2008/9/Kybler_job_wintergreen_VA_8_001_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/WI/2007/2/superior_JR_Remod_019.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/WI/2007/2/superior_JR_Remod_019_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/WI/2007/2/superior_JR_Remod_034.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/WI/2007/2/superior_JR_Remod_034_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/WI/2007/2/superior_JR_Remod_055.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/WI/2007/2/superior_JR_Remod_055_AC0C0ne.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/WI/2007/2/superior_JR_Remod_055_rqICcsy.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/WI/2007/2/superior_JR_Remod_055_thumb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/WI/2007/2/superior_JR_Remod_055_thumb_BzBujoj.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/WI/2007/2/superior_JR_Remod_055_thumb_a5WM29p.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mediafiles/about us/2017925/about-us/bfb8a6c0ac01be0233e58f828ea25843.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/MDB License.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/mdb.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/css/mdb.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/desktop.ini" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/font/roboto/Roboto-Bold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/font/roboto/Roboto-Bold.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/font/roboto/Roboto-Light.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/font/roboto/Roboto-Light.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/font/roboto/Roboto-Medium.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/font/roboto/Roboto-Medium.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/font/roboto/Roboto-Regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/font/roboto/Roboto-Regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/font/roboto/Roboto-Thin.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/font/roboto/Roboto-Thin.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/img/mdb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/img/overlays/01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/img/overlays/02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/img/overlays/03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/img/overlays/04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/img/overlays/05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/img/overlays/06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/img/overlays/07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/img/overlays/08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/img/overlays/09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/bootstrap.min (2).js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/mdb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/mdb.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/buttons.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/chart.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/collapsible.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/dropdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/forms-basic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/global.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/jquery-easing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/mdb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/mdb.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/scrolling-nav.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/velocity.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/video-bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/waves-effect.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/js/modules (optional)/wow.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_animations.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_cards.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_carousel.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_color.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_dropdown.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_forms-basic.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_global.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_helpers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_hover-effects.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_navbar.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_normalize.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_pagination.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_panel.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_parallax.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_prefixer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_roboto.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_scrollspy.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_sections.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_shadows.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_tooltip.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_typography.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_video-background.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static_cdn/main/sass/mdb/free/_waves.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/account/forms.py" afterPath="$PROJECT_DIR$/account/forms.py" />
+      <change beforePath="$PROJECT_DIR$/article/views.py" afterPath="$PROJECT_DIR$/article/views.py" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/galleries/models.py" afterPath="$PROJECT_DIR$/galleries/models.py" />
+      <change beforePath="$PROJECT_DIR$/galleries/views.py" afterPath="$PROJECT_DIR$/galleries/views.py" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" afterPath="$PROJECT_DIR$/home/views.py" />
+      <change beforePath="$PROJECT_DIR$/static_cdn/main/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static_cdn/main/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/templates/galleries/buildingimages_list.html" afterPath="$PROJECT_DIR$/templates/galleries/buildingimages_list.html" />
+      <change beforePath="$PROJECT_DIR$/templates/home/base.html" afterPath="$PROJECT_DIR$/templates/home/base.html" />
+      <change beforePath="$PROJECT_DIR$/templates/home/contact_us.html" afterPath="$PROJECT_DIR$/templates/home/contact_us.html" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html" afterPath="$PROJECT_DIR$/templates/home/index.html" />
+      <change beforePath="$PROJECT_DIR$/templates/home/navigator.html" afterPath="$PROJECT_DIR$/templates/home/navigator.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,22 +274,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <file leaf-file-name="buildingimages_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/galleries/buildingimages_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/urls.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/galleries/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+            <state relative-caret-position="237">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bfb8a6c0ac01be0233e58f828ea25843.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mediafiles/about us/2017925/about-us/bfb8a6c0ac01be0233e58f828ea25843.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="96" column="84" lean-forward="false" selection-start-line="96" selection-start-column="84" selection-end-line="96" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/galleries/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,72 +326,41 @@
       <file leaf-file-name="navigator.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/navigator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/views.py">
+      <file leaf-file-name="os.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/os.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="7866">
+              <caret line="415" column="0" lean-forward="false" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ntpath.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/ntpath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1596">
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/galleries/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#1#43#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preloader.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static_cdn/main/images/preloader.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="202" column="69" lean-forward="false" selection-start-line="202" selection-start-column="69" selection-end-line="202" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faq.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/article/faq.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding>
-                <element signature="e#169#190#0#HTML" expanded="true" />
-                <element signature="e#339#360#0#HTML" expanded="true" />
-                <element signature="e#490#514#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghomecrew/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="22" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -159,9 +395,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/article/view.html" />
         <option value="$PROJECT_DIR$/templates/article/articletext_detail.html" />
-        <option value="$PROJECT_DIR$/account/forms.py" />
         <option value="$PROJECT_DIR$/account/urls.py" />
         <option value="$PROJECT_DIR$/account/views.py" />
         <option value="$PROJECT_DIR$/galleries/tests.py" />
@@ -184,10 +418,8 @@
         <option value="$PROJECT_DIR$/Procfile.windows" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/galleries/admin.py" />
-        <option value="$PROJECT_DIR$/galleries/views.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/templates/galleries/index.html" />
-        <option value="$PROJECT_DIR$/templates/home/base.html" />
         <option value="$PROJECT_DIR$/templates/home/contact_success.html" />
         <option value="$PROJECT_DIR$/static_cdn/main/css/gallery.css" />
         <option value="$PROJECT_DIR$/static_cdn/main/scss/_testimonial.scss" />
@@ -196,20 +428,24 @@
         <option value="$PROJECT_DIR$/article/models.py" />
         <option value="$PROJECT_DIR$/static_cdn/main/css/contact_us.css" />
         <option value="$PROJECT_DIR$/home/forms.py" />
-        <option value="$PROJECT_DIR$/home/views.py" />
-        <option value="$PROJECT_DIR$/templates/home/contact_us.html" />
         <option value="F:/새 폴더/TOPBuilder-colorlib/TOPBuilder/404.html" />
         <option value="$PROJECT_DIR$/templates/404.html" />
         <option value="$PROJECT_DIR$/loghomecrew/urls.py" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/galleries/models.py" />
-        <option value="$PROJECT_DIR$/templates/galleries/buildingimages_list.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/loghomecrew/settings.py" />
+        <option value="$PROJECT_DIR$/templates/article/faq.html" />
+        <option value="$PROJECT_DIR$/templates/home/contact_us.html" />
+        <option value="$PROJECT_DIR$/account/forms.py" />
+        <option value="$PROJECT_DIR$/templates/home/navigator.html" />
         <option value="$PROJECT_DIR$/templates/home/index.html" />
         <option value="$PROJECT_DIR$/article/views.py" />
-        <option value="$PROJECT_DIR$/templates/home/navigator.html" />
-        <option value="$PROJECT_DIR$/templates/article/faq.html" />
+        <option value="$PROJECT_DIR$/home/views.py" />
+        <option value="$PROJECT_DIR$/static_cdn/main/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/galleries/views.py" />
+        <option value="$PROJECT_DIR$/templates/home/base.html" />
+        <option value="$PROJECT_DIR$/templates/galleries/buildingimages_list.html" />
+        <option value="$PROJECT_DIR$/galleries/models.py" />
       </list>
     </option>
   </component>
@@ -261,6 +497,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,12 +509,90 @@
             <path>
               <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
               <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="galleries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
               <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="mediafiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
               <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="mediafiles" type="462c0819:PsiDirectoryNode" />
+              <item name="about us" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="mediafiles" type="462c0819:PsiDirectoryNode" />
+              <item name="about us" type="462c0819:PsiDirectoryNode" />
+              <item name="2017925" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="mediafiles" type="462c0819:PsiDirectoryNode" />
+              <item name="about us" type="462c0819:PsiDirectoryNode" />
+              <item name="2017925" type="462c0819:PsiDirectoryNode" />
+              <item name="about-us" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="mediafiles" type="462c0819:PsiDirectoryNode" />
+              <item name="WI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="mediafiles" type="462c0819:PsiDirectoryNode" />
+              <item name="WI" type="462c0819:PsiDirectoryNode" />
+              <item name="2007" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="mediafiles" type="462c0819:PsiDirectoryNode" />
+              <item name="WI" type="462c0819:PsiDirectoryNode" />
+              <item name="2007" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="static_cdn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="static_cdn" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="static_cdn" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
@@ -287,7 +603,7 @@
               <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
               <item name="loghomecrew" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="galleries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loghomecrew" type="b2602c69:ProjectViewProjectNode" />
@@ -299,8 +615,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,7 +824,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516760927058</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update 1-23-18">
+      <created>1516760950469</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1516760950469</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -526,21 +847,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32119915" sideWeight="0.5031299" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43406594" sideWeight="0.543036" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36061588" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43406594" sideWeight="0.543036" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31685576" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875773" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3989011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -568,89 +888,16 @@
     <MESSAGE value="update requirements.txt" />
     <MESSAGE value="update 1-1-18" />
     <MESSAGE value="update 1-17-18" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 1-17-18" />
+    <MESSAGE value="update 1-23-18" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 1-23-18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/article/views.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/galleries/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/galleries/migrations/0002_auto_20171218_1109.py" />
-    <entry file="file://$PROJECT_DIR$/galleries/migrations/0018_merge_20171218_1112.py" />
-    <entry file="file://$PROJECT_DIR$/galleries/migrations/0017_remove_buildingimages_date_build_year.py" />
-    <entry file="file://$PROJECT_DIR$/galleries/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="92" lean-forward="false" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/galleries/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile.windows">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/galleries/index.html" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -679,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/contact_success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/staticfiles/main/css/contact_us.css" />
     <entry file="file://$PROJECT_DIR$/static_cdn/main/scss/_testimonial.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -705,13 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/contact_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -737,34 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="87" column="36" lean-forward="false" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/galleries/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static_cdn/main/favicon/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -782,43 +987,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/galleries/buildingimages_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="77" lean-forward="false" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/article/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/galleries/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,23 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/galleries/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="64" column="25" lean-forward="false" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghomecrew/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,23 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="202" column="69" lean-forward="false" selection-start-line="202" selection-start-column="69" selection-end-line="202" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="22" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,46 +1017,243 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/navigator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/article/faq.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="418">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/394538891/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59026">
+          <caret line="3634" column="0" lean-forward="true" selection-start-line="3634" selection-start-column="0" selection-end-line="3634" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galleries/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#169#190#0#HTML" expanded="true" />
-            <element signature="e#339#360#0#HTML" expanded="true" />
-            <element signature="e#490#514#0#HTML" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galleries/misc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret line="4" column="77" lean-forward="false" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/contact_success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="44" column="91" lean-forward="false" selection-start-line="44" selection-start-column="91" selection-end-line="44" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_cdn/main/images/gallery/gl-1.51c8253784a5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_cdn/main/images/gallery/gl-1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghomecrew/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4142">
+          <caret line="223" column="52" lean-forward="false" selection-start-line="223" selection-start-column="52" selection-end-line="223" selection-end-column="52" />
+          <folding>
+            <element signature="e#315#324#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghomecrew/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galleries/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#1#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7866">
+          <caret line="415" column="0" lean-forward="false" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_cdn/main/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/navigator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galleries/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="96" column="84" lean-forward="false" selection-start-line="96" selection-start-column="84" selection-end-line="96" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/galleries/buildingimages_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galleries/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediafiles/about us/2017925/about-us/bfb8a6c0ac01be0233e58f828ea25843.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

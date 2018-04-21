@@ -1,8 +1,10 @@
+import os
+
+from PIL import Image
 from braces.views import SelectRelatedMixin
-from django.db.models import Count, Max
-from django.http import Http404
-from django.shortcuts import render
 from django.views import generic
+
+from loghomecrew import settings
 from .models import BuildingImages, Location
 
 
@@ -12,7 +14,6 @@ class GalleriesIndexView(generic.ListView):
 	def get_context_data(self, **kwargs):
 		context = super(GalleriesIndexView, self).get_context_data(**kwargs)
 		context['locations'] = Location.objects.all()
-		year_list = BuildingImages.objects.values_list('date_build_year', flat=True).distinct()
 
 		return context
 
@@ -43,19 +44,17 @@ class GalleriesDetailView(SelectRelatedMixin, generic.ListView):
 	model = BuildingImages
 	select_related = ('location',)
 
-	def get_queryset(self, **kwargs):
-		print(kwargs)
-		try:
-			images = BuildingImages.objects.filter(date_build__year=kwargs['year']).order_by('date_build')
-			images = images.filter(location=kwargs['pk'])
+	# def get_queryset(self, **kwargs):
 
-		except BuildingImages.DoesNotExist:
-			raise Http404
-		else:
-			print(images)
-			return images.all()
-#
-# def get_context_data(self, **kwargs):
-# 	context = super().get_context_data(**kwargs)
-# 	context['images'] = self.location
-# 	return context
+	# try:
+	# 	images = BuildingImages.objects.filter(date_build__year=kwargs['year']).order_by('date_build')
+	# 	images = images.filter(location=kwargs['pk'])
+	#
+	# except BuildingImages.DoesNotExist:
+	# 	raise Http404
+	# else:
+	# 	return images.all()
+	#
+	def get_context_data(self, **kwargs):
+		context = super().get_context_data(**kwargs)
+		return context

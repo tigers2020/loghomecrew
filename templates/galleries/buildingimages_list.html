@@ -10,27 +10,42 @@
 
     {% regroup buildingimages_list|dictsortreversed:'date_build' by date_build|date:'Y' as image_by_year_list %}
     <section class="featured_works row" data-stellar-background-ratio="0.3">
-        {% for year, image_by_year in image_by_year_list %}
-            <div class="tittle wow fadeInUp">
-                <h2>{{ year }}</h2>
-            </div>
-            <div class="featured_gallery row">
+        <div class="featured_gallery">
+            {% for year, image_by_year in image_by_year_list %}
+
                 {% regroup image_by_year by location as image_by_location_list %}
                 {% for location, image_by_location in image_by_location_list %}
-                    <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                        <img src="{{ image_by_location.0.thumb_image.url }}" alt="">
-                        <div class="gallery_hover">
-                            <h4>{{ location.name }}</h4>
-                            <a href="#gallery_light_box" id="{{ image_by_location.0.pk }}">VIEW MORE</a>
+
+                    <div class="col-md-3 extra-margin-1">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <div class="view overlay hm-black-light z-depth-1">
+                                    <img src="{{ image_by_location.0.thumb_image.url }}" alt="" class="img-responsive">
+                                    <a href="#gallery_light_box" id="{{ image_by_location.0.pk }}">
+                                        <div class="mask waves-effect"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-content text-center rgba-black-strong">
+                                <h5 class="white-text">{{ location.name }}</h5>
+                            </div>
                         </div>
                     </div>
+                    {#                    <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">#}
+                    {#                        <img src="{{ image_by_location.0.thumb_image.url }}" alt="">#}
+                    {#                        <div class="gallery_hover">#}
+                    {#                            <h4>{{ location.name }}</h4>#}
+                    {#                            <a href="#gallery_light_box" id="{{ image_by_location.0.pk }}">VIEW MORE</a>#}
+                    {#                        </div>#}
+                    {#                    </div>#}
                 {% endfor %}
-            </div>
-        {% endfor %}
-
+            {% endfor %}
+        </div>
     </section>
     <div id="gallery_light_box" style="display: none;">light box div</div>
 {% endblock %}
+
+
 {% block custom_js %}
     <script type="text/javascript"
             src="{% static 'main/vendors/ilightbox/js/jquery.requestAnimationFrame.js' %}"></script>
