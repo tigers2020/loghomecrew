@@ -3,7 +3,7 @@ Django
 gunicorn
 psycopg2
 whitenoise==3.2
-python-decouple==3.1
+python-dotev-0.8.2
 django-ckeditor==5.4.0
 misaka==2.1.0
 django-resized==0.3.8
