@@ -18,8 +18,6 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.contrib.sitemaps.views import sitemap
 from django.views.generic import RedirectView
-
-
 from article import views as article_views
 from home import views as home_views
 from galleries import views as gallery_views
