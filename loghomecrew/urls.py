@@ -13,21 +13,33 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url, include
-from django.contrib import admin
+from django.conf.urls import url
 from django.conf.urls.static import static
+from django.contrib import admin
+from django.contrib.sitemaps.views import sitemap
 from django.views.generic import RedirectView
 
-from loghomecrew import settings
+
+from article import views as article_views
 from home import views as home_views
+from galleries import views as gallery_views
 
+from home.views import SiteSitemap
+from loghomecrew import settings
 
+sitemaps = {
+	'site': SiteSitemap,
+}
 urlpatterns = [
+	url('sitemap\.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
 	url(r'^admin/', admin.site.urls),
 	url(r'^favicon\.ico$', RedirectView.as_view(url='/static/main/favicon/favicon.ico')),
 	url(r'^$', home_views.IndexView.as_view(), name='index_view'),
-	url(r'^galleries/', include('galleries.urls')),
-	url(r'^article/', include('article.urls')),
+	url(r'^aboutus/$', article_views.AboutUsView.as_view(), name='about_us'),
+	url(r'^faq/$', article_views.FaQView.as_view(), name='faq_view'),
+	url(r'^$', gallery_views.GalleriesIndexView.as_view(), name='galleries_index'),
+	# url(r'^galleries/', include('galleries.urls')),
+	# url(r'^article/', include('article.urls')),
 	url(r'^contact_us/', home_views.contact, name='contact_us'),
 	url(r'^contact_us/send_failed', home_views.contact_failed, name='failed'),
 	url(r'^contact_us/success', home_views.contact_success, name='success'),

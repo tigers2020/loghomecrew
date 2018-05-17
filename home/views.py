@@ -1,8 +1,11 @@
+import datetime
 import random
 
+from django.contrib.sitemaps import Sitemap
 from django.core.mail import send_mail
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.urls import reverse
 from django.views import generic
 
 from article.models import ArticleText
@@ -68,3 +71,15 @@ def contact_success(request):
 
 def contact_failed(request):
 	return HttpResponse("Send Email Failed")
+
+
+class SiteSitemap(Sitemap):
+	changefreq = "daily"
+	priority = 1.0
+	lastmod = datetime.datetime.now()
+
+	def items(self):
+		return ['index_view', 'about_us', 'galleries_index', 'faq_view', 'contact_us']
+
+	def location(self, obj):
+		return reverse(obj)

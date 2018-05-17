@@ -52,6 +52,7 @@ INSTALLED_APPS = [
 	'anymail',
 	'snowpenguin.django.recaptcha2',
 	'taggit',
+	'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [
