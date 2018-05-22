@@ -57,7 +57,7 @@
                         <h2>{{ aboutus.title }}</h2>
                     </div>
                     {{ aboutus.article_text|safe }}
-                    <a href="#" class="button_all">Contact Now</a>
+                    <a href="{% url 'contact_us' %}" class="button_all">Contact Now</a>
                 </div>
                 <div class="col-md-5 col-sm-6 about_client">
                     <img src="{{ aboutus.image.url }}" alt="about us">
