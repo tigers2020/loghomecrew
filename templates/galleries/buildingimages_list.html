@@ -2,10 +2,11 @@
 {% load static %}
 
 {% block title %}
-Gallery |
+    Gallery |
 {% endblock %}
 {% block metadata %}
-Log home construction images for travel all states.
+    Log home construction images for travel {% for location in locations %}{{ location }}{% if not forloop.last %}, {% endif %}{% endfor %} states.
+
 {% endblock %}
 {% block custom_css %}
     <link rel="stylesheet" type="text/css" href="{% static 'main/vendors/ilightbox/css/ilightbox.css' %}"/>
@@ -14,7 +15,7 @@ Log home construction images for travel all states.
 
 {% endblock %}
 {% block container %}
-<section class="banner_area" data-stellar-background-ratio="0.8" style="background-position: 50% -320px;">
+    <section class="banner_area" data-stellar-background-ratio="0.8" style="background-position: 50% -320px;">
         <h2>Gallery</h2>
         <ol class="breadcrumb">
             <li>

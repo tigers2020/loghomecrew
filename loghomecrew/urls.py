@@ -30,7 +30,7 @@ sitemaps = {
 	'site': SiteSitemap,
 }
 urlpatterns = [
-(r'^robots.txt$', lambda r: HttpResponse("User-agent: *\nDisallow: /", mimetype="text/plain")),
+	url(r'^robots.txt$', lambda r: HttpResponse("User-agent: *\nDisallow: /", mimetype="text/plain")),
 	url('sitemap\.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
 	url(r'^admin/', admin.site.urls),
 	url(r'^favicon\.ico$', RedirectView.as_view(url='/static/main/favicon/favicon.ico')),
