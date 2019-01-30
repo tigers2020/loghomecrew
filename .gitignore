@@ -7,3 +7,5 @@ staticfiles
 .DS_Store
 .env
 .gitignore
+*.sqlite3
+*.bak
